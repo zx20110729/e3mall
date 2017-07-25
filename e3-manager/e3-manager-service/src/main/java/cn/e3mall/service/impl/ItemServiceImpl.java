@@ -15,6 +15,8 @@ public class ItemServiceImpl implements ItemService{
     private ItemMapper itemMapper;
     @Override
     public Item getItemById(long itemId) {
-        return itemMapper.selectByPrimaryKey(itemId);
+        System.out.println(123);
+        Item item = itemMapper.selectByPrimaryKey(itemId);
+        return item;
     }
 }

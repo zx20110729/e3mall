@@ -3,10 +3,20 @@
        xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
        xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
 	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd
 	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.2.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.2.xsd
-	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd">
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd
+http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
     <!--扫描service包-->
     <context:component-scan base-package="cn.e3mall.service"/>
-    </beans>
+    <!--使用dubbo发布服务-->
+    <!--提供应用信息,便于计算依赖关系-->
+    <dubbo:application name="e3-manager"/>
+    <dubbo:registry protocol="zookeeper" address="10.130.87.157:2181"/>
+    <dubbo:protocol name="dubbo" port="20880"/>
+
+
+    <dubbo:service interface="cn.e3mall.service.ItemService" ref="itemServiceImpl" timeout="10000"/>
+</beans>
