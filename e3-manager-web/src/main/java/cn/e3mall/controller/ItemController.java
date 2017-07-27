@@ -1,5 +1,6 @@
 package cn.e3mall.controller;
 
+import cn.e3mall.common.pojo.E3Result;
 import cn.e3mall.common.pojo.EasyUIDataGridResult;
 import cn.e3mall.common.pojo.EasyUITreeNode;
 import cn.e3mall.pojo.Item;
@@ -60,5 +61,11 @@ public class ItemController {
     public List<EasyUITreeNode> getCatList(@RequestParam(name = "id", defaultValue = "0") long parentId) {
         List<EasyUITreeNode> itemCatList = itemCatService.getItemCatList(parentId);
         return itemCatList;
+    }
+
+    @RequestMapping(value = "/save", method = RequestMethod.POST)
+    @ResponseBody
+    public E3Result addItem(Item item, String desc) {
+        return itemService.addItem(item, desc);
     }
 }

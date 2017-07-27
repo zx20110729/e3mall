@@ -1,8 +1,10 @@
 package cn.e3mall.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class ItemParam {
+public class ItemParam implements Serializable {
+    private static final long serialVersionUID = -8633193520554617106L;
     private Long id;
 
     private Long itemCatId;

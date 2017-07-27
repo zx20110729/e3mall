@@ -1,8 +1,10 @@
 package cn.e3mall.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class OrderShipping {
+public class OrderShipping implements Serializable {
+    private static final long serialVersionUID = 4173136044841814887L;
     private String orderId;
 
     private String receiverName;
