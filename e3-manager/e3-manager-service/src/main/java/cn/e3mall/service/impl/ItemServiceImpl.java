@@ -13,8 +13,15 @@ import com.alibaba.dubbo.container.page.PageHandler;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+import javax.jms.Destination;
+import javax.jms.JMSException;
+import javax.jms.Message;
+import javax.jms.Session;
 import java.util.Date;
 import java.util.List;
 
@@ -27,7 +34,10 @@ public class ItemServiceImpl implements ItemService {
     private ItemMapper itemMapper;
     @Autowired
     private ItemDescMapper itemDescMapper;
-
+    @Autowired
+    private JmsTemplate jmsTemplate;
+    @Resource(name = "activeMQTopic")
+    private Destination topicDestination;
     @Override
     public Item getItemById(long itemId) {
         Item item = itemMapper.selectByPrimaryKey(itemId);
@@ -52,7 +62,7 @@ public class ItemServiceImpl implements ItemService {
 
     @Override
     public E3Result addItem(Item item, String desc) {
-        long itemId = IDUtils.genItemId();
+        final long itemId = IDUtils.genItemId();
         Date created = new Date();
         //将item保存到数据库
         item.setId(itemId);
@@ -68,6 +78,14 @@ public class ItemServiceImpl implements ItemService {
         itemDesc.setCreated(created);
         itemDesc.setUpdated(created);
         itemDescMapper.insert(itemDesc);
-        return new E3Result(null);
+
+        //发送添加商品消息
+        jmsTemplate.send(topicDestination, new MessageCreator() {
+            @Override
+            public Message createMessage(Session session) throws JMSException {
+                return session.createTextMessage(itemId+"");
+            }
+        });
+        return E3Result.ok();
     }
 }

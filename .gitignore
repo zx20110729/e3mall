@@ -2,3 +2,4 @@
 */target
 */*/target
 *.iml
+!/e3-search-web/src/main/java/cn/e3mall/search/controller/

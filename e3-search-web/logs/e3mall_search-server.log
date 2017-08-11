@@ -1,0 +1,2632 @@
+
+
+[DEBUG] 2017-08-07 17:03:20,469 method:%1%nAdding [servletConfigInitParams] PropertySource with lowest search precedence
+
+
+[DEBUG] 2017-08-07 17:03:20,473 method:%1%nAdding [servletContextInitParams] PropertySource with lowest search precedence
+
+
+[DEBUG] 2017-08-07 17:03:20,480 method:%1%nAdding [jndiProperties] PropertySource with lowest search precedence
+
+
+[DEBUG] 2017-08-07 17:03:20,481 method:%1%nAdding [systemProperties] PropertySource with lowest search precedence
+
+
+[DEBUG] 2017-08-07 17:03:20,483 method:%1%nAdding [systemEnvironment] PropertySource with lowest search precedence
+
+
+[DEBUG] 2017-08-07 17:03:20,483 method:%1%nInitialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+
+
+[DEBUG] 2017-08-07 17:03:20,486 method:%1%nInitializing filter 'CharacterEncodingFilter'
+
+
+[DEBUG] 2017-08-07 17:03:20,537 method:%1%nFilter 'CharacterEncodingFilter' configured successfully
+
+
+[DEBUG] 2017-08-07 17:03:20,554 method:%1%nInitializing servlet 'SpringMVC'
+
+
+[DEBUG] 2017-08-07 17:03:20,556 method:%1%nAdding [servletConfigInitParams] PropertySource with lowest search precedence
+
+
+[DEBUG] 2017-08-07 17:03:20,556 method:%1%nAdding [servletContextInitParams] PropertySource with lowest search precedence
+
+
+[DEBUG] 2017-08-07 17:03:20,557 method:%1%nAdding [jndiProperties] PropertySource with lowest search precedence
+
+
+[DEBUG] 2017-08-07 17:03:20,557 method:%1%nAdding [systemProperties] PropertySource with lowest search precedence
+
+
+[DEBUG] 2017-08-07 17:03:20,557 method:%1%nAdding [systemEnvironment] PropertySource with lowest search precedence
+
+
+[DEBUG] 2017-08-07 17:03:20,558 method:%1%nInitialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+
+
+[INFO ] 2017-08-07 17:03:20,574 method:%1%nFrameworkServlet 'SpringMVC': initialization started
+
+
+[DEBUG] 2017-08-07 17:03:20,579 method:%1%nServlet with name 'SpringMVC' will try to create custom WebApplicationContext context of class 'org.springframework.web.context.support.XmlWebApplicationContext', using parent context [null]
+
+
+[DEBUG] 2017-08-07 17:03:20,604 method:%1%nReplacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+
+
+[DEBUG] 2017-08-07 17:03:20,604 method:%1%nReplacing [servletConfigInitParams] PropertySource with [servletConfigInitParams]
+
+
+[INFO ] 2017-08-07 17:03:20,605 method:%1%nRefreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Mon Aug 07 17:03:20 CST 2017]; root of context hierarchy
+
+
+[DEBUG] 2017-08-07 17:03:20,644 method:%1%nAdding [systemProperties] PropertySource with lowest search precedence
+
+
+[DEBUG] 2017-08-07 17:03:20,644 method:%1%nAdding [systemEnvironment] PropertySource with lowest search precedence
+
+
+[DEBUG] 2017-08-07 17:03:20,644 method:%1%nInitialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+
+
+[INFO ] 2017-08-07 17:03:20,656 method:%1%nLoading XML bean definitions from class path resource [spring/springmvc.xml]
+
+
+[DEBUG] 2017-08-07 17:03:20,661 method:%1%nUsing JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+
+
+[DEBUG] 2017-08-07 17:03:20,705 method:%1%nLoading schema mappings from [META-INF/spring.schemas]
+
+
+[DEBUG] 2017-08-07 17:03:20,708 method:%1%nLoaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/cache/spring-cache-4.2.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-4.2.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/task/spring-task-4.2.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-4.2.xsd=org/springframework/transaction/config/spring-tx-4.2.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jms/spring-jms-4.2.xsd=org/springframework/jms/config/spring-jms-4.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://code.alibabatech.com/schema/dubbo/dubbo.xsd=META-INF/dubbo.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/util/spring-util-4.2.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.2.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-4.1.xsd=org/springframework/jms/config/spring-jms-4.1.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.1.xsd=org/springframework/jms/config/spring-jms-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-4.2.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/jms/spring-jms-4.0.xsd=org/springframework/jms/config/spring-jms-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.2.xsd=org/springframework/aop/config/spring-aop-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.2.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd=org/springframework/web/servlet/config/spring-mvc-4.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.2.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-4.2.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-4.2.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.2.xsd}
+
+
+[DEBUG] 2017-08-07 17:03:20,735 method:%1%nFound XML schema [http://www.springframework.org/schema/beans/spring-beans-4.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.2.xsd
+
+
+[DEBUG] 2017-08-07 17:03:20,776 method:%1%nFound XML schema [http://www.springframework.org/schema/context/spring-context-4.2.xsd] in classpath: org/springframework/context/config/spring-context-4.2.xsd
+
+
+[DEBUG] 2017-08-07 17:03:20,783 method:%1%nFound XML schema [http://www.springframework.org/schema/tool/spring-tool-4.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.2.xsd
+
+
+[DEBUG] 2017-08-07 17:03:20,791 method:%1%nFound XML schema [http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd] in classpath: org/springframework/web/servlet/config/spring-mvc-4.2.xsd
+
+
+[DEBUG] 2017-08-07 17:03:20,820 method:%1%nFound XML schema [http://code.alibabatech.com/schema/dubbo/dubbo.xsd] in classpath: META-INF/dubbo.xsd
+
+
+[DEBUG] 2017-08-07 17:03:20,871 method:%1%nLoading bean definitions
+
+
+[DEBUG] 2017-08-07 17:03:20,886 method:%1%nLoaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://code.alibabatech.com/schema/dubbo=com.alibaba.dubbo.config.spring.schema.DubboNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+
+
+[DEBUG] 2017-08-07 17:03:20,991 method:%1%nAdding [systemProperties] PropertySource with lowest search precedence
+
+
+[DEBUG] 2017-08-07 17:03:20,991 method:%1%nAdding [systemEnvironment] PropertySource with lowest search precedence
+
+
+[DEBUG] 2017-08-07 17:03:20,991 method:%1%nInitialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+
+
+[DEBUG] 2017-08-07 17:03:20,997 method:%1%nJSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+
+
+[DEBUG] 2017-08-07 17:03:21,003 method:%1%nLooking for matching resources in directory tree [E:\repository\e3mall\e3-search-web\target\classes\cn\e3mall\search\controller]
+
+
+[DEBUG] 2017-08-07 17:03:21,004 method:%1%nSearching directory [E:\repository\e3mall\e3-search-web\target\classes\cn\e3mall\search\controller] for files matching pattern [E:/repository/e3mall/e3-search-web/target/classes/cn/e3mall/search/controller/**/*.class]
+
+
+[DEBUG] 2017-08-07 17:03:21,016 method:%1%nResolved location pattern [classpath*:cn/e3mall/search/controller/**/*.class] to resources [file [E:\repository\e3mall\e3-search-web\target\classes\cn\e3mall\search\controller\SearchController.class]]
+
+
+[DEBUG] 2017-08-07 17:03:21,053 method:%1%nIdentified candidate component class: file [E:\repository\e3mall\e3-search-web\target\classes\cn\e3mall\search\controller\SearchController.class]
+
+
+[DEBUG] 2017-08-07 17:03:21,077 method:%1%nNeither XML 'id' nor 'name' specified - using generated bean name [org.springframework.web.servlet.view.InternalResourceViewResolver#0]
+
+
+[DEBUG] 2017-08-07 17:03:21,078 method:%1%nNeither XML 'id' nor 'name' specified - using generated bean name [cn.e3mall.search.exception.GlobalExceptionResolver#0]
+
+
+[INFO ] 2017-08-07 17:03:21,084 method:%1%nusing logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[DEBUG] 2017-08-07 17:03:21,112 method:%1%nLoaded 33 bean definitions from location pattern [classpath:spring/springmvc.xml]
+
+
+[DEBUG] 2017-08-07 17:03:21,112 method:%1%nBean factory for WebApplicationContext for namespace 'SpringMVC-servlet': org.springframework.beans.factory.support.DefaultListableBeanFactory@332a94c0: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping,mvcCorsConfigurations,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,searchController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,mvcResourceUrlProvider,org.springframework.web.servlet.handler.MappedInterceptor#1,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,mvcPathMatcher,mvcUrlPathHelper,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.view.InternalResourceViewResolver#0,multipartResolver,cn.e3mall.search.exception.GlobalExceptionResolver#0,e3-search-web,com.alibaba.dubbo.config.RegistryConfig,searchService]; root of factory hierarchy
+
+
+[DEBUG] 2017-08-07 17:03:21,128 method:%1%nRegistering scope 'request' with implementation [org.springframework.web.context.request.RequestScope@717306b6]
+
+
+[DEBUG] 2017-08-07 17:03:21,128 method:%1%nRegistering scope 'session' with implementation [org.springframework.web.context.request.SessionScope@3eaf76f5]
+
+
+[DEBUG] 2017-08-07 17:03:21,129 method:%1%nRegistering scope 'globalSession' with implementation [org.springframework.web.context.request.SessionScope@71aaeef9]
+
+
+[DEBUG] 2017-08-07 17:03:21,130 method:%1%nRegistering scope 'application' with implementation [org.springframework.web.context.support.ServletContextScope@4bc4371a]
+
+
+[DEBUG] 2017-08-07 17:03:21,176 method:%1%nCreating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:21,177 method:%1%nCreating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:21,189 method:%1%nEagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:21,192 method:%1%nFinished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:21,306 method:%1%nCreating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+
+
+[DEBUG] 2017-08-07 17:03:21,306 method:%1%nCreating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+
+
+[DEBUG] 2017-08-07 17:03:21,308 method:%1%nEagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:21,337 method:%1%nFinished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+
+
+[DEBUG] 2017-08-07 17:03:21,338 method:%1%nAdding [environmentProperties] PropertySource with lowest search precedence
+
+
+[INFO ] 2017-08-07 17:03:21,339 method:%1%nLoading properties file from class path resource [config.properties]
+
+
+[DEBUG] 2017-08-07 17:03:21,340 method:%1%nAdding [localProperties] PropertySource with lowest search precedence
+
+
+[DEBUG] 2017-08-07 17:03:21,348 method:%1%nCreating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:21,349 method:%1%nCreating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:21,352 method:%1%nEagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:21,353 method:%1%nFinished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:21,353 method:%1%nCreating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:21,353 method:%1%nCreating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:21,354 method:%1%nEagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:21,355 method:%1%nFinished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:21,355 method:%1%nCreating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:21,355 method:%1%nCreating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:21,358 method:%1%nEagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:21,358 method:%1%nFinished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:21,359 method:%1%nCreating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:21,359 method:%1%nCreating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:21,360 method:%1%nEagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:21,360 method:%1%nFinished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:21,360 method:%1%nCreating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:21,361 method:%1%nCreating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:21,361 method:%1%nEagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:21,361 method:%1%nFinished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:21,372 method:%1%nUnable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@25ca9e5c]
+
+
+[DEBUG] 2017-08-07 17:03:21,375 method:%1%nUnable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@5d517231]
+
+
+[DEBUG] 2017-08-07 17:03:21,378 method:%1%nUnable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@5d2a5896]
+
+
+[DEBUG] 2017-08-07 17:03:21,380 method:%1%nPre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@332a94c0: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping,mvcCorsConfigurations,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,searchController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,mvcResourceUrlProvider,org.springframework.web.servlet.handler.MappedInterceptor#1,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,mvcPathMatcher,mvcUrlPathHelper,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.view.InternalResourceViewResolver#0,multipartResolver,cn.e3mall.search.exception.GlobalExceptionResolver#0,e3-search-web,com.alibaba.dubbo.config.RegistryConfig,searchService,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+
+
+[DEBUG] 2017-08-07 17:03:21,380 method:%1%nReturning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+
+
+[DEBUG] 2017-08-07 17:03:21,380 method:%1%nCreating shared instance of singleton bean 'mvcContentNegotiationManager'
+
+
+[DEBUG] 2017-08-07 17:03:21,381 method:%1%nCreating instance of bean 'mvcContentNegotiationManager'
+
+
+[DEBUG] 2017-08-07 17:03:21,387 method:%1%nEagerly caching bean 'mvcContentNegotiationManager' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:21,402 method:%1%nInvoking afterPropertiesSet() on bean with name 'mvcContentNegotiationManager'
+
+
+[DEBUG] 2017-08-07 17:03:21,405 method:%1%nFinished creating instance of bean 'mvcContentNegotiationManager'
+
+
+[DEBUG] 2017-08-07 17:03:21,406 method:%1%nCreating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+
+
+[DEBUG] 2017-08-07 17:03:21,406 method:%1%nCreating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+
+
+[DEBUG] 2017-08-07 17:03:21,428 method:%1%nEagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:21,459 method:%1%nReturning cached instance of singleton bean 'mvcContentNegotiationManager'
+
+
+[DEBUG] 2017-08-07 17:03:21,459 method:%1%nCreating shared instance of singleton bean 'mvcCorsConfigurations'
+
+
+[DEBUG] 2017-08-07 17:03:21,460 method:%1%nCreating instance of bean 'mvcCorsConfigurations'
+
+
+[DEBUG] 2017-08-07 17:03:21,461 method:%1%nEagerly caching bean 'mvcCorsConfigurations' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:21,469 method:%1%nFinished creating instance of bean 'mvcCorsConfigurations'
+
+
+[DEBUG] 2017-08-07 17:03:21,471 method:%1%nCreating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+
+
+[DEBUG] 2017-08-07 17:03:21,472 method:%1%nCreating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+
+
+[DEBUG] 2017-08-07 17:03:21,474 method:%1%nCreating instance of bean '(inner bean)#a89aff3'
+
+
+[DEBUG] 2017-08-07 17:03:21,475 method:%1%nCreating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+
+
+[DEBUG] 2017-08-07 17:03:21,476 method:%1%nCreating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+
+
+[DEBUG] 2017-08-07 17:03:21,476 method:%1%nEagerly caching bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:21,481 method:%1%nInvoking afterPropertiesSet() on bean with name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+
+
+[DEBUG] 2017-08-07 17:03:21,552 method:%1%nFinished creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+
+
+[DEBUG] 2017-08-07 17:03:21,563 method:%1%nFinished creating instance of bean '(inner bean)#a89aff3'
+
+
+[DEBUG] 2017-08-07 17:03:21,578 method:%1%nNo property editor [org.springframework.web.context.request.WebRequestInterceptorEditor] found for type org.springframework.web.context.request.WebRequestInterceptor according to 'Editor' suffix convention
+
+
+[DEBUG] 2017-08-07 17:03:21,579 method:%1%nEagerly caching bean 'org.springframework.web.servlet.handler.MappedInterceptor#0' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:21,583 method:%1%nFinished creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+
+
+[DEBUG] 2017-08-07 17:03:21,584 method:%1%nCreating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
+
+
+[DEBUG] 2017-08-07 17:03:21,584 method:%1%nCreating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
+
+
+[DEBUG] 2017-08-07 17:03:21,584 method:%1%nCreating instance of bean '(inner bean)#3efcf4dd'
+
+
+[DEBUG] 2017-08-07 17:03:21,585 method:%1%nCreating instance of bean '(inner bean)#24a3a093'
+
+
+[DEBUG] 2017-08-07 17:03:21,589 method:%1%nFinished creating instance of bean '(inner bean)#24a3a093'
+
+
+[DEBUG] 2017-08-07 17:03:21,593 method:%1%nFinished creating instance of bean '(inner bean)#3efcf4dd'
+
+
+[DEBUG] 2017-08-07 17:03:21,594 method:%1%nEagerly caching bean 'org.springframework.web.servlet.handler.MappedInterceptor#1' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:21,594 method:%1%nFinished creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
+
+
+[DEBUG] 2017-08-07 17:03:21,594 method:%1%nInvoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+
+
+[DEBUG] 2017-08-07 17:03:21,594 method:%1%nLooking for request mappings in application context: WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Mon Aug 07 17:03:20 CST 2017]; root of context hierarchy
+
+
+[DEBUG] 2017-08-07 17:03:21,645 method:%1%n [DUBBO] package com.alibaba.dubbo.rpc;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Protocol$Adpative implements com.alibaba.dubbo.rpc.Protocol {
+public void destroy() {throw new UnsupportedOperationException("method public abstract void com.alibaba.dubbo.rpc.Protocol.destroy() of interface com.alibaba.dubbo.rpc.Protocol is not adaptive method!");
+}
+public int getDefaultPort() {throw new UnsupportedOperationException("method public abstract int com.alibaba.dubbo.rpc.Protocol.getDefaultPort() of interface com.alibaba.dubbo.rpc.Protocol is not adaptive method!");
+}
+public com.alibaba.dubbo.rpc.Invoker refer(java.lang.Class arg0, com.alibaba.dubbo.common.URL arg1) throws java.lang.Class {
+if (arg1 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg1;
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.Protocol) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.Protocol extension = (com.alibaba.dubbo.rpc.Protocol)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.Protocol.class).getExtension(extName);
+return extension.refer(arg0, arg1);
+}
+public com.alibaba.dubbo.rpc.Exporter export(com.alibaba.dubbo.rpc.Invoker arg0) throws com.alibaba.dubbo.rpc.Invoker {
+if (arg0 == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument == null");
+if (arg0.getUrl() == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument getUrl() == null");com.alibaba.dubbo.common.URL url = arg0.getUrl();
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.Protocol) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.Protocol extension = (com.alibaba.dubbo.rpc.Protocol)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.Protocol.class).getExtension(extName);
+return extension.export(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[DEBUG] 2017-08-07 17:03:21,814 method:%1%n [DUBBO] package com.alibaba.dubbo.rpc.cluster;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Cluster$Adpative implements com.alibaba.dubbo.rpc.cluster.Cluster {
+public com.alibaba.dubbo.rpc.Invoker join(com.alibaba.dubbo.rpc.cluster.Directory arg0) throws com.alibaba.dubbo.rpc.cluster.Directory {
+if (arg0 == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.cluster.Directory argument == null");
+if (arg0.getUrl() == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.cluster.Directory argument getUrl() == null");com.alibaba.dubbo.common.URL url = arg0.getUrl();
+String extName = url.getParameter("cluster", "failover");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.cluster.Cluster) name from url(" + url.toString() + ") use keys([cluster])");
+com.alibaba.dubbo.rpc.cluster.Cluster extension = (com.alibaba.dubbo.rpc.cluster.Cluster)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.cluster.Cluster.class).getExtension(extName);
+return extension.join(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[DEBUG] 2017-08-07 17:03:21,838 method:%1%n [DUBBO] package com.alibaba.dubbo.rpc;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ProxyFactory$Adpative implements com.alibaba.dubbo.rpc.ProxyFactory {
+public java.lang.Object getProxy(com.alibaba.dubbo.rpc.Invoker arg0) throws com.alibaba.dubbo.rpc.Invoker {
+if (arg0 == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument == null");
+if (arg0.getUrl() == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument getUrl() == null");com.alibaba.dubbo.common.URL url = arg0.getUrl();
+String extName = url.getParameter("proxy", "javassist");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.ProxyFactory) name from url(" + url.toString() + ") use keys([proxy])");
+com.alibaba.dubbo.rpc.ProxyFactory extension = (com.alibaba.dubbo.rpc.ProxyFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.ProxyFactory.class).getExtension(extName);
+return extension.getProxy(arg0);
+}
+public com.alibaba.dubbo.rpc.Invoker getInvoker(java.lang.Object arg0, java.lang.Class arg1, com.alibaba.dubbo.common.URL arg2) throws java.lang.Object {
+if (arg2 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg2;
+String extName = url.getParameter("proxy", "javassist");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.ProxyFactory) name from url(" + url.toString() + ") use keys([proxy])");
+com.alibaba.dubbo.rpc.ProxyFactory extension = (com.alibaba.dubbo.rpc.ProxyFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.ProxyFactory.class).getExtension(extName);
+return extension.getInvoker(arg0, arg1, arg2);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[DEBUG] 2017-08-07 17:03:21,859 method:%1%nCreating shared instance of singleton bean 'searchService'
+
+
+[DEBUG] 2017-08-07 17:03:21,859 method:%1%nCreating instance of bean 'searchService'
+
+
+[DEBUG] 2017-08-07 17:03:21,866 method:%1%nEagerly caching bean 'searchService' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:21,920 method:%1%nInvoking afterPropertiesSet() on bean with name 'searchService'
+
+
+[DEBUG] 2017-08-07 17:03:21,922 method:%1%nCreating shared instance of singleton bean 'e3-search-web'
+
+
+[DEBUG] 2017-08-07 17:03:21,922 method:%1%nCreating instance of bean 'e3-search-web'
+
+
+[DEBUG] 2017-08-07 17:03:21,924 method:%1%nEagerly caching bean 'e3-search-web' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:21,930 method:%1%nFinished creating instance of bean 'e3-search-web'
+
+
+[DEBUG] 2017-08-07 17:03:21,932 method:%1%nCreating shared instance of singleton bean 'com.alibaba.dubbo.config.RegistryConfig'
+
+
+[DEBUG] 2017-08-07 17:03:21,932 method:%1%nCreating instance of bean 'com.alibaba.dubbo.config.RegistryConfig'
+
+
+[DEBUG] 2017-08-07 17:03:21,934 method:%1%nEagerly caching bean 'com.alibaba.dubbo.config.RegistryConfig' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:21,941 method:%1%nFinished creating instance of bean 'com.alibaba.dubbo.config.RegistryConfig'
+
+
+[DEBUG] 2017-08-07 17:03:21,942 method:%1%nFinished creating instance of bean 'searchService'
+
+
+[DEBUG] 2017-08-07 17:03:21,973 method:%1%n1 request handler methods found on class cn.e3mall.search.controller.SearchController: {public java.lang.String cn.e3mall.search.controller.SearchController.search(java.lang.String,int,org.springframework.ui.Model) throws org.apache.solr.client.solrj.SolrServerException,java.io.UnsupportedEncodingException={[/search]}}
+
+
+[INFO ] 2017-08-07 17:03:21,974 method:%1%nMapped "{[/search]}" onto public java.lang.String cn.e3mall.search.controller.SearchController.search(java.lang.String,int,org.springframework.ui.Model) throws org.apache.solr.client.solrj.SolrServerException,java.io.UnsupportedEncodingException
+
+
+[DEBUG] 2017-08-07 17:03:21,976 method:%1%nFinished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+
+
+[DEBUG] 2017-08-07 17:03:21,976 method:%1%nReturning cached instance of singleton bean 'mvcCorsConfigurations'
+
+
+[DEBUG] 2017-08-07 17:03:21,977 method:%1%nReturning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+
+
+[DEBUG] 2017-08-07 17:03:21,977 method:%1%nCreating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+
+
+[DEBUG] 2017-08-07 17:03:21,977 method:%1%nCreating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+
+
+[DEBUG] 2017-08-07 17:03:22,326 method:%1%nEagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:22,344 method:%1%nReturning cached instance of singleton bean 'mvcContentNegotiationManager'
+
+
+[DEBUG] 2017-08-07 17:03:22,344 method:%1%nCreating instance of bean '(inner bean)#81a85ee'
+
+
+[DEBUG] 2017-08-07 17:03:22,351 method:%1%nReturning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+
+
+[DEBUG] 2017-08-07 17:03:22,353 method:%1%nFinished creating instance of bean '(inner bean)#81a85ee'
+
+
+[DEBUG] 2017-08-07 17:03:22,354 method:%1%nCreating instance of bean '(inner bean)#2b9a906c'
+
+
+[DEBUG] 2017-08-07 17:03:22,365 method:%1%nFinished creating instance of bean '(inner bean)#2b9a906c'
+
+
+[DEBUG] 2017-08-07 17:03:22,365 method:%1%nCreating instance of bean '(inner bean)#6927fd4'
+
+
+[DEBUG] 2017-08-07 17:03:22,374 method:%1%nFinished creating instance of bean '(inner bean)#6927fd4'
+
+
+[DEBUG] 2017-08-07 17:03:22,374 method:%1%nCreating instance of bean '(inner bean)#5dee967c'
+
+
+[DEBUG] 2017-08-07 17:03:22,378 method:%1%nFinished creating instance of bean '(inner bean)#5dee967c'
+
+
+[DEBUG] 2017-08-07 17:03:22,379 method:%1%nCreating instance of bean '(inner bean)#45f699ec'
+
+
+[DEBUG] 2017-08-07 17:03:22,385 method:%1%nFinished creating instance of bean '(inner bean)#45f699ec'
+
+
+[DEBUG] 2017-08-07 17:03:22,386 method:%1%nCreating instance of bean '(inner bean)#3a046187'
+
+
+[DEBUG] 2017-08-07 17:03:22,404 method:%1%nFinished creating instance of bean '(inner bean)#3a046187'
+
+
+[DEBUG] 2017-08-07 17:03:22,404 method:%1%nCreating instance of bean '(inner bean)#15015c90'
+
+
+[DEBUG] 2017-08-07 17:03:22,417 method:%1%nFinished creating instance of bean '(inner bean)#15015c90'
+
+
+[DEBUG] 2017-08-07 17:03:22,417 method:%1%nCreating instance of bean '(inner bean)#27f77ff3'
+
+
+[DEBUG] 2017-08-07 17:03:22,419 method:%1%nCreating instance of bean '(inner bean)#113bb10b'
+
+
+[DEBUG] 2017-08-07 17:03:22,427 method:%1%nInvoking afterPropertiesSet() on bean with name '(inner bean)#113bb10b'
+
+
+[DEBUG] 2017-08-07 17:03:22,433 method:%1%nFinished creating instance of bean '(inner bean)#113bb10b'
+
+
+[DEBUG] 2017-08-07 17:03:22,449 method:%1%nFinished creating instance of bean '(inner bean)#27f77ff3'
+
+
+[DEBUG] 2017-08-07 17:03:22,450 method:%1%nCreating instance of bean '(inner bean)#4a8756c3'
+
+
+[DEBUG] 2017-08-07 17:03:22,458 method:%1%nFinished creating instance of bean '(inner bean)#4a8756c3'
+
+
+[DEBUG] 2017-08-07 17:03:22,459 method:%1%nCreating instance of bean '(inner bean)#26c74cc6'
+
+
+[DEBUG] 2017-08-07 17:03:22,467 method:%1%nFinished creating instance of bean '(inner bean)#26c74cc6'
+
+
+[DEBUG] 2017-08-07 17:03:22,469 method:%1%nInvoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+
+
+[INFO ] 2017-08-07 17:03:22,470 method:%1%nLooking for @ControllerAdvice: WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Mon Aug 07 17:03:20 CST 2017]; root of context hierarchy
+
+
+[DEBUG] 2017-08-07 17:03:22,512 method:%1%nFinished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+
+
+[DEBUG] 2017-08-07 17:03:22,513 method:%1%nCreating shared instance of singleton bean 'mvcUriComponentsContributor'
+
+
+[DEBUG] 2017-08-07 17:03:22,513 method:%1%nCreating instance of bean 'mvcUriComponentsContributor'
+
+
+[DEBUG] 2017-08-07 17:03:22,514 method:%1%nEagerly caching bean 'mvcUriComponentsContributor' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:22,519 method:%1%nCreating instance of bean '(inner bean)#4f78b27e'
+
+
+[DEBUG] 2017-08-07 17:03:22,539 method:%1%nReturning cached instance of singleton bean 'mvcContentNegotiationManager'
+
+
+[DEBUG] 2017-08-07 17:03:22,539 method:%1%nCreating instance of bean '(inner bean)#81a85ee#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,540 method:%1%nReturning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+
+
+[DEBUG] 2017-08-07 17:03:22,541 method:%1%nFinished creating instance of bean '(inner bean)#81a85ee#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,542 method:%1%nCreating instance of bean '(inner bean)#2b9a906c#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,543 method:%1%nFinished creating instance of bean '(inner bean)#2b9a906c#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,544 method:%1%nCreating instance of bean '(inner bean)#6927fd4#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,550 method:%1%nFinished creating instance of bean '(inner bean)#6927fd4#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,551 method:%1%nCreating instance of bean '(inner bean)#5dee967c#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,553 method:%1%nFinished creating instance of bean '(inner bean)#5dee967c#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,554 method:%1%nCreating instance of bean '(inner bean)#45f699ec#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,558 method:%1%nFinished creating instance of bean '(inner bean)#45f699ec#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,559 method:%1%nCreating instance of bean '(inner bean)#3a046187#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,570 method:%1%nFinished creating instance of bean '(inner bean)#3a046187#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,571 method:%1%nCreating instance of bean '(inner bean)#15015c90#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,572 method:%1%nFinished creating instance of bean '(inner bean)#15015c90#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,573 method:%1%nCreating instance of bean '(inner bean)#27f77ff3#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,573 method:%1%nCreating instance of bean '(inner bean)#113bb10b#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,574 method:%1%nInvoking afterPropertiesSet() on bean with name '(inner bean)#113bb10b#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,579 method:%1%nFinished creating instance of bean '(inner bean)#113bb10b#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,580 method:%1%nFinished creating instance of bean '(inner bean)#27f77ff3#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,581 method:%1%nCreating instance of bean '(inner bean)#4a8756c3#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,582 method:%1%nFinished creating instance of bean '(inner bean)#4a8756c3#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,582 method:%1%nCreating instance of bean '(inner bean)#26c74cc6#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,583 method:%1%nFinished creating instance of bean '(inner bean)#26c74cc6#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,584 method:%1%nInvoking afterPropertiesSet() on bean with name '(inner bean)#4f78b27e'
+
+
+[INFO ] 2017-08-07 17:03:22,585 method:%1%nLooking for @ControllerAdvice: WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Mon Aug 07 17:03:20 CST 2017]; root of context hierarchy
+
+
+[DEBUG] 2017-08-07 17:03:22,586 method:%1%nReturning eagerly cached instance of singleton bean 'mvcUriComponentsContributor' that is not fully initialized yet - a consequence of a circular reference
+
+
+[DEBUG] 2017-08-07 17:03:22,589 method:%1%nFinished creating instance of bean '(inner bean)#4f78b27e'
+
+
+[DEBUG] 2017-08-07 17:03:22,590 method:%1%nReturning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+
+
+[DEBUG] 2017-08-07 17:03:22,590 method:%1%nInvoking afterPropertiesSet() on bean with name 'mvcUriComponentsContributor'
+
+
+[DEBUG] 2017-08-07 17:03:22,591 method:%1%nFinished creating instance of bean 'mvcUriComponentsContributor'
+
+
+[DEBUG] 2017-08-07 17:03:22,591 method:%1%nReturning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+
+
+[DEBUG] 2017-08-07 17:03:22,592 method:%1%nCreating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:22,592 method:%1%nCreating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:22,614 method:%1%nEagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:22,630 method:%1%nReturning cached instance of singleton bean 'mvcContentNegotiationManager'
+
+
+[DEBUG] 2017-08-07 17:03:22,631 method:%1%nCreating instance of bean '(inner bean)#2b9a906c#2'
+
+
+[DEBUG] 2017-08-07 17:03:22,632 method:%1%nFinished creating instance of bean '(inner bean)#2b9a906c#2'
+
+
+[DEBUG] 2017-08-07 17:03:22,632 method:%1%nCreating instance of bean '(inner bean)#6927fd4#2'
+
+
+[DEBUG] 2017-08-07 17:03:22,638 method:%1%nFinished creating instance of bean '(inner bean)#6927fd4#2'
+
+
+[DEBUG] 2017-08-07 17:03:22,638 method:%1%nCreating instance of bean '(inner bean)#5dee967c#2'
+
+
+[DEBUG] 2017-08-07 17:03:22,640 method:%1%nFinished creating instance of bean '(inner bean)#5dee967c#2'
+
+
+[DEBUG] 2017-08-07 17:03:22,641 method:%1%nCreating instance of bean '(inner bean)#45f699ec#2'
+
+
+[DEBUG] 2017-08-07 17:03:22,644 method:%1%nFinished creating instance of bean '(inner bean)#45f699ec#2'
+
+
+[DEBUG] 2017-08-07 17:03:22,644 method:%1%nCreating instance of bean '(inner bean)#3a046187#2'
+
+
+[DEBUG] 2017-08-07 17:03:22,659 method:%1%nFinished creating instance of bean '(inner bean)#3a046187#2'
+
+
+[DEBUG] 2017-08-07 17:03:22,659 method:%1%nCreating instance of bean '(inner bean)#15015c90#2'
+
+
+[DEBUG] 2017-08-07 17:03:22,662 method:%1%nFinished creating instance of bean '(inner bean)#15015c90#2'
+
+
+[DEBUG] 2017-08-07 17:03:22,662 method:%1%nCreating instance of bean '(inner bean)#27f77ff3#2'
+
+
+[DEBUG] 2017-08-07 17:03:22,663 method:%1%nCreating instance of bean '(inner bean)#113bb10b#2'
+
+
+[DEBUG] 2017-08-07 17:03:22,664 method:%1%nInvoking afterPropertiesSet() on bean with name '(inner bean)#113bb10b#2'
+
+
+[DEBUG] 2017-08-07 17:03:22,671 method:%1%nFinished creating instance of bean '(inner bean)#113bb10b#2'
+
+
+[DEBUG] 2017-08-07 17:03:22,672 method:%1%nFinished creating instance of bean '(inner bean)#27f77ff3#2'
+
+
+[DEBUG] 2017-08-07 17:03:22,673 method:%1%nCreating instance of bean '(inner bean)#4dd3ba2c'
+
+
+[DEBUG] 2017-08-07 17:03:22,674 method:%1%nFinished creating instance of bean '(inner bean)#4dd3ba2c'
+
+
+[DEBUG] 2017-08-07 17:03:22,675 method:%1%nInvoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:22,676 method:%1%nLooking for exception mappings: WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Mon Aug 07 17:03:20 CST 2017]; root of context hierarchy
+
+
+[DEBUG] 2017-08-07 17:03:22,679 method:%1%nFinished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:22,679 method:%1%nCreating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:22,679 method:%1%nCreating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:22,680 method:%1%nEagerly caching bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:22,686 method:%1%nFinished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:22,687 method:%1%nCreating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:22,687 method:%1%nCreating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:22,688 method:%1%nEagerly caching bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:22,693 method:%1%nFinished creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:22,694 method:%1%nCreating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+
+
+[DEBUG] 2017-08-07 17:03:22,694 method:%1%nCreating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+
+
+[DEBUG] 2017-08-07 17:03:22,696 method:%1%nEagerly caching bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:22,707 method:%1%nReturning cached instance of singleton bean 'mvcCorsConfigurations'
+
+
+[DEBUG] 2017-08-07 17:03:22,708 method:%1%nReturning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+
+
+[DEBUG] 2017-08-07 17:03:22,709 method:%1%nReturning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
+
+
+[DEBUG] 2017-08-07 17:03:22,709 method:%1%nLooking for URL mappings in application context: WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Mon Aug 07 17:03:20 CST 2017]; root of context hierarchy
+
+
+[DEBUG] 2017-08-07 17:03:22,709 method:%1%nRejected bean name 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,709 method:%1%nRejected bean name 'mvcContentNegotiationManager': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,710 method:%1%nRejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,710 method:%1%nRejected bean name 'mvcCorsConfigurations': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,710 method:%1%nRejected bean name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,710 method:%1%nRejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,710 method:%1%nRejected bean name 'mvcUriComponentsContributor': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,710 method:%1%nRejected bean name 'org.springframework.web.servlet.handler.MappedInterceptor#0': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,711 method:%1%nRejected bean name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,711 method:%1%nRejected bean name 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,711 method:%1%nRejected bean name 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,711 method:%1%nRejected bean name 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,712 method:%1%nRejected bean name 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,712 method:%1%nRejected bean name 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,712 method:%1%nRejected bean name 'searchController': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,712 method:%1%nRejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,713 method:%1%nRejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,713 method:%1%nRejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,714 method:%1%nRejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,714 method:%1%nRejected bean name 'org.springframework.context.event.internalEventListenerProcessor': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,714 method:%1%nRejected bean name 'org.springframework.context.event.internalEventListenerFactory': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,715 method:%1%nRejected bean name 'mvcResourceUrlProvider': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,715 method:%1%nRejected bean name 'org.springframework.web.servlet.handler.MappedInterceptor#1': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,715 method:%1%nRejected bean name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,715 method:%1%nRejected bean name 'mvcPathMatcher': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,716 method:%1%nRejected bean name 'mvcUrlPathHelper': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,716 method:%1%nRejected bean name 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,716 method:%1%nRejected bean name 'org.springframework.web.servlet.view.InternalResourceViewResolver#0': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,716 method:%1%nRejected bean name 'multipartResolver': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,716 method:%1%nRejected bean name 'cn.e3mall.search.exception.GlobalExceptionResolver#0': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,717 method:%1%nRejected bean name 'e3-search-web': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,717 method:%1%nRejected bean name 'com.alibaba.dubbo.config.RegistryConfig': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,717 method:%1%nRejected bean name 'searchService': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,717 method:%1%nRejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,718 method:%1%nRejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,718 method:%1%nRejected bean name 'environment': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,718 method:%1%nRejected bean name 'systemProperties': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,718 method:%1%nRejected bean name 'systemEnvironment': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,719 method:%1%nRejected bean name 'servletContext': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,719 method:%1%nRejected bean name 'servletConfig': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,719 method:%1%nRejected bean name 'contextParameters': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,719 method:%1%nRejected bean name 'contextAttributes': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,719 method:%1%nRejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,720 method:%1%nRejected bean name 'messageSource': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,720 method:%1%nRejected bean name 'applicationEventMulticaster': no URL paths identified
+
+
+[DEBUG] 2017-08-07 17:03:22,720 method:%1%nFinished creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+
+
+[DEBUG] 2017-08-07 17:03:22,721 method:%1%nCreating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+
+
+[DEBUG] 2017-08-07 17:03:22,721 method:%1%nCreating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+
+
+[DEBUG] 2017-08-07 17:03:22,721 method:%1%nEagerly caching bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:22,726 method:%1%nFinished creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+
+
+[DEBUG] 2017-08-07 17:03:22,726 method:%1%nCreating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+
+
+[DEBUG] 2017-08-07 17:03:22,727 method:%1%nCreating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+
+
+[DEBUG] 2017-08-07 17:03:22,727 method:%1%nEagerly caching bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:22,731 method:%1%nFinished creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+
+
+[DEBUG] 2017-08-07 17:03:22,731 method:%1%nCreating shared instance of singleton bean 'searchController'
+
+
+[DEBUG] 2017-08-07 17:03:22,732 method:%1%nCreating instance of bean 'searchController'
+
+
+[DEBUG] 2017-08-07 17:03:22,740 method:%1%nRegistered injected element on class [cn.e3mall.search.controller.SearchController]: AutowiredFieldElement for private int cn.e3mall.search.controller.SearchController.rows
+
+
+[DEBUG] 2017-08-07 17:03:22,740 method:%1%nRegistered injected element on class [cn.e3mall.search.controller.SearchController]: AutowiredFieldElement for private cn.e3mall.search.service.SearchService cn.e3mall.search.controller.SearchController.searchService
+
+
+[DEBUG] 2017-08-07 17:03:22,741 method:%1%nEagerly caching bean 'searchController' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:22,745 method:%1%nProcessing injected element of bean 'searchController': AutowiredFieldElement for private int cn.e3mall.search.controller.SearchController.rows
+
+
+[DEBUG] 2017-08-07 17:03:22,747 method:%1%nSearching for key 'SEARCH_ROWS' in [environmentProperties]
+
+
+[DEBUG] 2017-08-07 17:03:22,748 method:%1%nSearching for key 'SEARCH_ROWS' in [servletConfigInitParams]
+
+
+[DEBUG] 2017-08-07 17:03:22,749 method:%1%nSearching for key 'SEARCH_ROWS' in [servletContextInitParams]
+
+
+[DEBUG] 2017-08-07 17:03:22,749 method:%1%nSearching for key 'SEARCH_ROWS' in [jndiProperties]
+
+
+[DEBUG] 2017-08-07 17:03:22,750 method:%1%nLooking up JNDI object with name [java:comp/env/SEARCH_ROWS]
+
+
+[DEBUG] 2017-08-07 17:03:22,752 method:%1%nConverted JNDI name [java:comp/env/SEARCH_ROWS] not found - trying original name [SEARCH_ROWS]. javax.naming.NameNotFoundException: Name [SEARCH_ROWS] is not bound in this Context. Unable to find [SEARCH_ROWS].
+
+
+[DEBUG] 2017-08-07 17:03:22,752 method:%1%nLooking up JNDI object with name [SEARCH_ROWS]
+
+
+[DEBUG] 2017-08-07 17:03:22,753 method:%1%nJNDI lookup for name [SEARCH_ROWS] threw NamingException with message: Name [SEARCH_ROWS] is not bound in this Context. Unable to find [SEARCH_ROWS].. Returning null.
+
+
+[DEBUG] 2017-08-07 17:03:22,753 method:%1%nSearching for key 'SEARCH_ROWS' in [systemProperties]
+
+
+[DEBUG] 2017-08-07 17:03:22,754 method:%1%nSearching for key 'SEARCH_ROWS' in [systemEnvironment]
+
+
+[DEBUG] 2017-08-07 17:03:22,754 method:%1%nCould not find key 'SEARCH_ROWS' in any property source. Returning [null]
+
+
+[DEBUG] 2017-08-07 17:03:22,755 method:%1%nSearching for key 'SEARCH_ROWS' in [localProperties]
+
+
+[DEBUG] 2017-08-07 17:03:22,755 method:%1%nFound key 'SEARCH_ROWS' in [localProperties] with type [String] and value '60'
+
+
+[DEBUG] 2017-08-07 17:03:22,759 method:%1%nProcessing injected element of bean 'searchController': AutowiredFieldElement for private cn.e3mall.search.service.SearchService cn.e3mall.search.controller.SearchController.searchService
+
+
+[DEBUG] 2017-08-07 17:03:22,760 method:%1%nReturning cached instance of singleton bean 'searchService'
+
+
+[DEBUG] 2017-08-07 17:03:22,834 method:%1%n [DUBBO] package com.alibaba.dubbo.registry;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class RegistryFactory$Adpative implements com.alibaba.dubbo.registry.RegistryFactory {
+public com.alibaba.dubbo.registry.Registry getRegistry(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.registry.RegistryFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.registry.RegistryFactory extension = (com.alibaba.dubbo.registry.RegistryFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.registry.RegistryFactory.class).getExtension(extName);
+return extension.getRegistry(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[DEBUG] 2017-08-07 17:03:22,852 method:%1%n [DUBBO] package com.alibaba.dubbo.remoting.zookeeper;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ZookeeperTransporter$Adpative implements com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter {
+public com.alibaba.dubbo.remoting.zookeeper.ZookeeperClient connect(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("client", url.getParameter("transporter", "zkclient"));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter) name from url(" + url.toString() + ") use keys([client, transporter])");
+com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter extension = (com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter.class).getExtension(extName);
+return extension.connect(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2017-08-07 17:03:22,874 method:%1%n [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-127.0.0.1.cache, data: {cn.e3mall.content.service.ContentCategoryService=dubbo://10.130.87.157:20881/cn.e3mall.content.service.ContentCategoryService?anyhost=true&application=e3-content&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentCategoryService&methods=getContentList,getContentCatList,addContentCategory&pid=6748&revision=1.0-SNAPSHOT&side=provider&timeout=10000&timestamp=1502095044646 empty://10.130.87.157/cn.e3mall.content.service.ContentCategoryService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentCategoryService&methods=getContentList,getContentCatList,addContentCategory&pid=3948&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096570810 empty://10.130.87.157/cn.e3mall.content.service.ContentCategoryService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentCategoryService&methods=getContentList,getContentCatList,addContentCategory&pid=3948&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096570810, cn.e3mall.content.service.ContentService=dubbo://10.130.87.157:20881/cn.e3mall.content.service.ContentService?anyhost=true&application=e3-content&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentService&methods=addContent,getContentListById&pid=6748&revision=1.0-SNAPSHOT&side=provider&timeout=10000&timestamp=1502095097012 empty://10.130.87.157/cn.e3mall.content.service.ContentService?application=e3-portal-web&category=configurators&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentService&methods=addContent,getContentListById&pid=7020&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096583011 empty://10.130.87.157/cn.e3mall.content.service.ContentService?application=e3-portal-web&category=routers&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentService&methods=addContent,getContentListById&pid=7020&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096583011, cn.e3mall.search.service.SearchItemService=dubbo://10.130.87.157:20882/cn.e3mall.search.service.SearchItemService?anyhost=true&application=e3-search&dubbo=2.5.3&interface=cn.e3mall.search.service.SearchItemService&methods=importAllItems&pid=6936&revision=1.0-SNAPSHOT&side=provider&timeout=10000&timestamp=1502095048754 empty://10.130.87.157/cn.e3mall.search.service.SearchItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=cn.e3mall.search.service.SearchItemService&methods=importAllItems&pid=3948&revision=1.0-SNAPSHOT&side=consumer&timeout=100000&timestamp=1502096579426 empty://10.130.87.157/cn.e3mall.search.service.SearchItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=cn.e3mall.search.service.SearchItemService&methods=importAllItems&pid=3948&revision=1.0-SNAPSHOT&side=consumer&timeout=100000&timestamp=1502096579426, cn.e3mall.service.ItemService=dubbo://10.130.87.157:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=getItemList,addItem,getItemById&pid=6324&revision=1.0-SNAPSHOT&side=provider&timeout=10000&timestamp=1502095063510 empty://10.130.87.157/cn.e3mall.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=getItemList,addItem,getItemById&pid=3948&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096576746 empty://10.130.87.157/cn.e3mall.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=getItemList,addItem,getItemById&pid=3948&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096576746, cn.e3mall.service.ItemCatService=dubbo://10.130.87.157:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatList&pid=6324&revision=1.0-SNAPSHOT&side=provider&timeout=10000&timestamp=1502095112841 empty://10.130.87.157/cn.e3mall.service.ItemCatService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatList&pid=3948&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096577445 empty://10.130.87.157/cn.e3mall.service.ItemCatService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatList&pid=3948&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096577445, cn.e3mall.search.service.SearchService=dubbo://10.130.87.157:20882/cn.e3mall.search.service.SearchService?anyhost=true&application=e3-search&dubbo=2.5.3&interface=cn.e3mall.search.service.SearchService&methods=search&pid=6488&revision=1.0-SNAPSHOT&side=provider&timeout=10000&timestamp=1501646119781 empty://10.130.87.157/cn.e3mall.search.service.SearchService?application=e3-search-web&category=configurators&dubbo=2.5.3&interface=cn.e3mall.search.service.SearchService&methods=search&pid=6944&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1501646221495 empty://10.130.87.157/cn.e3mall.search.service.SearchService?application=e3-search-web&category=routers&dubbo=2.5.3&interface=cn.e3mall.search.service.SearchService&methods=search&pid=6944&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1501646221495}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[DEBUG] 2017-08-07 17:03:22,893 method:%1%nCreating new ZookKeeper instance to connect to 127.0.0.1:2181.
+
+
+[INFO ] 2017-08-07 17:03:22,893 method:%1%nStarting ZkClient event thread.
+
+
+[INFO ] 2017-08-07 17:03:22,912 method:%1%nClient environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2017-08-07 17:03:22,913 method:%1%nClient environment:host.name=PC-20151230QOFE
+
+
+[INFO ] 2017-08-07 17:03:22,913 method:%1%nClient environment:java.version=1.7.0_07
+
+
+[INFO ] 2017-08-07 17:03:22,913 method:%1%nClient environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2017-08-07 17:03:22,913 method:%1%nClient environment:java.home=D:\Program Files\Java\jdk1.7.0_07\jre
+
+
+[INFO ] 2017-08-07 17:03:22,913 method:%1%nClient environment:java.class.path=D:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.2.5\plugins\maven\lib\maven3\boot\plexus-classworlds-2.4.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.2.5\lib\idea_rt.jar
+
+
+[INFO ] 2017-08-07 17:03:22,913 method:%1%nClient environment:java.library.path=D:\Program Files\Java\jdk1.7.0_07\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Ruby\Ruby22-x64\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Program Files\php-5.5.38-Win32-VC11-x64;D:\Program Files\php-5.5.38-Win32-VC11-x64\ext;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;D:\Program Files (x86)\Subversion\bin;D:\Program Files\Android\Android Studio\gradle\gradle-3.0\bin;D:\Program Files\Android\sdk\platform-tools;D:\Program Files\Apache\apache-maven-3.3.9\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_05\bin;D:\Program Files\Java\jdk1.8.0_05\jre\bin;;D:\Program Files\TortoiseSVN\bin;D:\Program Files (x86)\VisualSVN Server\bin;D:\ORACLE\instantclient_11_2;D:\Program Files (x86)\Subversion\bin;C:\Program Files (x86)\Windows Live\Shared;D:\Program Files (x86)\Git\cmd;D:\Program Files (x86)\Git\bin;D:\Program Files (x86)\Git\libexec\git-core;D:\Program Files\cmder;D:\android-sdk\platform-tools;;D:\Program Files (x86)\Heroku\bin;D:\Program Files\Python\Python35\Scripts;D:\Program Files\nodejs\;D:\Program Files\Python\Scripts\;D:\Program Files\Python\;D:\Program Files\Python\Python35;D:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\Administrator\AppData\Roaming\npm;.
+
+
+[INFO ] 2017-08-07 17:03:22,914 method:%1%nClient environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+
+
+[INFO ] 2017-08-07 17:03:22,914 method:%1%nClient environment:java.compiler=<NA>
+
+
+[INFO ] 2017-08-07 17:03:22,914 method:%1%nClient environment:os.name=Windows 7
+
+
+[INFO ] 2017-08-07 17:03:22,914 method:%1%nClient environment:os.arch=amd64
+
+
+[INFO ] 2017-08-07 17:03:22,914 method:%1%nClient environment:os.version=6.1
+
+
+[INFO ] 2017-08-07 17:03:22,915 method:%1%nClient environment:user.name=Administrator
+
+
+[INFO ] 2017-08-07 17:03:22,915 method:%1%nClient environment:user.home=C:\Users\Administrator
+
+
+[INFO ] 2017-08-07 17:03:22,915 method:%1%nClient environment:user.dir=E:\repository\e3mall\e3-search-web
+
+
+[INFO ] 2017-08-07 17:03:22,916 method:%1%nInitiating client connection, connectString=127.0.0.1:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@5e07757
+
+
+[DEBUG] 2017-08-07 17:03:22,921 method:%1%nzookeeper.disableAutoWatchReset is false
+
+
+[DEBUG] 2017-08-07 17:03:22,947 method:%1%nAwaiting connection to Zookeeper server
+
+
+[DEBUG] 2017-08-07 17:03:22,950 method:%1%nWaiting for keeper state SyncConnected
+
+
+[INFO ] 2017-08-07 17:03:22,953 method:%1%nOpening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2017-08-07 17:03:22,955 method:%1%nSocket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+
+
+[DEBUG] 2017-08-07 17:03:22,958 method:%1%nSession establishment request sent on 127.0.0.1/127.0.0.1:2181
+
+
+[INFO ] 2017-08-07 17:03:23,060 method:%1%nSession establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x15dbb44013f0005, negotiated timeout = 30000
+
+
+[DEBUG] 2017-08-07 17:03:23,062 method:%1%nReceived event: WatchedEvent state:SyncConnected type:None path:null
+
+
+[INFO ] 2017-08-07 17:03:23,063 method:%1%nzookeeper state changed (SyncConnected)
+
+
+[DEBUG] 2017-08-07 17:03:23,063 method:%1%nLeaving process event
+
+
+[DEBUG] 2017-08-07 17:03:23,063 method:%1%nState is SyncConnected
+
+
+[DEBUG] 2017-08-07 17:03:23,074 method:%1%n [DUBBO] package com.alibaba.dubbo.rpc.cluster;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class RouterFactory$Adpative implements com.alibaba.dubbo.rpc.cluster.RouterFactory {
+public com.alibaba.dubbo.rpc.cluster.Router getRouter(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getProtocol();
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.cluster.RouterFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.cluster.RouterFactory extension = (com.alibaba.dubbo.rpc.cluster.RouterFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.cluster.RouterFactory.class).getExtension(extName);
+return extension.getRouter(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[DEBUG] 2017-08-07 17:03:23,090 method:%1%n [DUBBO] package com.alibaba.dubbo.rpc.cluster;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ConfiguratorFactory$Adpative implements com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory {
+public com.alibaba.dubbo.rpc.cluster.Configurator getConfigurator(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getProtocol();
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory extension = (com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory.class).getExtension(extName);
+return extension.getConfigurator(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2017-08-07 17:03:23,103 method:%1%n [DUBBO] Register: consumer://10.130.87.157/cn.e3mall.search.service.SearchService?application=e3-search-web&category=consumers&check=false&dubbo=2.5.3&interface=cn.e3mall.search.service.SearchService&methods=search&pid=7528&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096602769, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:03:23,152 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,2673,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+
+
+[DEBUG] 2017-08-07 17:03:23,191 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 2,1  replyHeader:: 2,2674,-110  request:: '/dubbo/cn.e3mall.search.service.SearchService,,v{s{31,s{'world,'anyone}}},0  response::  
+
+
+[DEBUG] 2017-08-07 17:03:23,216 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 3,1  replyHeader:: 3,2675,-110  request:: '/dubbo/cn.e3mall.search.service.SearchService/consumers,,v{s{31,s{'world,'anyone}}},0  response::  
+
+
+[DEBUG] 2017-08-07 17:03:23,246 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 4,1  replyHeader:: 4,2676,0  request:: '/dubbo/cn.e3mall.search.service.SearchService/consumers/consumer%253A%252F%252F10.130.87.157%252Fcn.e3mall.search.service.SearchService%253Fapplication%253De3-search-web%2526category%253Dconsumers%2526check%253Dfalse%2526dubbo%253D2.5.3%2526interface%253Dcn.e3mall.search.service.SearchService%2526methods%253Dsearch%2526pid%253D7528%2526revision%253D1.0-SNAPSHOT%2526side%253Dconsumer%2526timeout%253D10000%2526timestamp%253D1502096602769,,v{s{31,s{'world,'anyone}}},1  response:: '/dubbo/cn.e3mall.search.service.SearchService/consumers/consumer%253A%252F%252F10.130.87.157%252Fcn.e3mall.search.service.SearchService%253Fapplication%253De3-search-web%2526category%253Dconsumers%2526check%253Dfalse%2526dubbo%253D2.5.3%2526interface%253Dcn.e3mall.search.service.SearchService%2526methods%253Dsearch%2526pid%253D7528%2526revision%253D1.0-SNAPSHOT%2526side%253Dconsumer%2526timeout%253D10000%2526timestamp%253D1502096602769 
+
+
+[INFO ] 2017-08-07 17:03:23,247 method:%1%n [DUBBO] Subscribe: consumer://10.130.87.157/cn.e3mall.search.service.SearchService?application=e3-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=cn.e3mall.search.service.SearchService&methods=search&pid=7528&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096602769, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:03:23,304 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 5,1  replyHeader:: 5,2677,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+
+
+[DEBUG] 2017-08-07 17:03:23,346 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 6,1  replyHeader:: 6,2678,-110  request:: '/dubbo/cn.e3mall.search.service.SearchService,,v{s{31,s{'world,'anyone}}},0  response::  
+
+
+[DEBUG] 2017-08-07 17:03:23,371 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 7,1  replyHeader:: 7,2679,-110  request:: '/dubbo/cn.e3mall.search.service.SearchService/providers,,v{s{31,s{'world,'anyone}}},0  response::  
+
+
+[DEBUG] 2017-08-07 17:03:23,378 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 8,3  replyHeader:: 8,2679,0  request:: '/dubbo/cn.e3mall.search.service.SearchService/providers,T  response:: s{2448,2448,1501645057530,1501645057530,0,5,0,0,0,1,2573} 
+
+
+[DEBUG] 2017-08-07 17:03:23,382 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 9,8  replyHeader:: 9,2679,0  request:: '/dubbo/cn.e3mall.search.service.SearchService/providers,T  response:: v{'dubbo%253A%252F%252F10.130.87.157%253A20882%252Fcn.e3mall.search.service.SearchService%253Fanyhost%253Dtrue%2526application%253De3-search%2526dubbo%253D2.5.3%2526interface%253Dcn.e3mall.search.service.SearchService%2526methods%253Dsearch%2526pid%253D6936%2526revision%253D1.0-SNAPSHOT%2526side%253Dprovider%2526timeout%253D10000%2526timestamp%253D1502095100899} 
+
+
+[DEBUG] 2017-08-07 17:03:23,412 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 10,1  replyHeader:: 10,2680,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+
+
+[DEBUG] 2017-08-07 17:03:23,460 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 11,1  replyHeader:: 11,2681,-110  request:: '/dubbo/cn.e3mall.search.service.SearchService,,v{s{31,s{'world,'anyone}}},0  response::  
+
+
+[DEBUG] 2017-08-07 17:03:23,490 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 12,1  replyHeader:: 12,2682,-110  request:: '/dubbo/cn.e3mall.search.service.SearchService/configurators,,v{s{31,s{'world,'anyone}}},0  response::  
+
+
+[DEBUG] 2017-08-07 17:03:23,493 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 13,3  replyHeader:: 13,2682,0  request:: '/dubbo/cn.e3mall.search.service.SearchService/configurators,T  response:: s{2452,2452,1501645057975,1501645057975,0,0,0,0,0,0,2452} 
+
+
+[DEBUG] 2017-08-07 17:03:23,494 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 14,8  replyHeader:: 14,2682,0  request:: '/dubbo/cn.e3mall.search.service.SearchService/configurators,T  response:: v{} 
+
+
+[DEBUG] 2017-08-07 17:03:23,534 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 15,1  replyHeader:: 15,2683,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+
+
+[DEBUG] 2017-08-07 17:03:23,568 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 16,1  replyHeader:: 16,2684,-110  request:: '/dubbo/cn.e3mall.search.service.SearchService,,v{s{31,s{'world,'anyone}}},0  response::  
+
+
+[DEBUG] 2017-08-07 17:03:23,593 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 17,1  replyHeader:: 17,2685,-110  request:: '/dubbo/cn.e3mall.search.service.SearchService/routers,,v{s{31,s{'world,'anyone}}},0  response::  
+
+
+[DEBUG] 2017-08-07 17:03:23,594 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 18,3  replyHeader:: 18,2685,0  request:: '/dubbo/cn.e3mall.search.service.SearchService/routers,T  response:: s{2480,2480,1501645487190,1501645487190,0,0,0,0,0,0,2480} 
+
+
+[DEBUG] 2017-08-07 17:03:23,595 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 19,8  replyHeader:: 19,2685,0  request:: '/dubbo/cn.e3mall.search.service.SearchService/routers,T  response:: v{} 
+
+
+[INFO ] 2017-08-07 17:03:23,596 method:%1%n [DUBBO] Notify urls for subscribe url consumer://10.130.87.157/cn.e3mall.search.service.SearchService?application=e3-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=cn.e3mall.search.service.SearchService&methods=search&pid=7528&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096602769, urls: [dubbo://10.130.87.157:20882/cn.e3mall.search.service.SearchService?anyhost=true&application=e3-search&dubbo=2.5.3&interface=cn.e3mall.search.service.SearchService&methods=search&pid=6936&revision=1.0-SNAPSHOT&side=provider&timeout=10000&timestamp=1502095100899, empty://10.130.87.157/cn.e3mall.search.service.SearchService?application=e3-search-web&category=configurators&dubbo=2.5.3&interface=cn.e3mall.search.service.SearchService&methods=search&pid=7528&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096602769, empty://10.130.87.157/cn.e3mall.search.service.SearchService?application=e3-search-web&category=routers&dubbo=2.5.3&interface=cn.e3mall.search.service.SearchService&methods=search&pid=7528&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096602769], dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:03:23,628 method:%1%n [DUBBO] package com.alibaba.dubbo.remoting;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Transporter$Adpative implements com.alibaba.dubbo.remoting.Transporter {
+public com.alibaba.dubbo.remoting.Client connect(com.alibaba.dubbo.common.URL arg0, com.alibaba.dubbo.remoting.ChannelHandler arg1) throws com.alibaba.dubbo.common.URL {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("client", url.getParameter("transporter", "netty"));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Transporter) name from url(" + url.toString() + ") use keys([client, transporter])");
+com.alibaba.dubbo.remoting.Transporter extension = (com.alibaba.dubbo.remoting.Transporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Transporter.class).getExtension(extName);
+return extension.connect(arg0, arg1);
+}
+public com.alibaba.dubbo.remoting.Server bind(com.alibaba.dubbo.common.URL arg0, com.alibaba.dubbo.remoting.ChannelHandler arg1) throws com.alibaba.dubbo.common.URL {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("server", url.getParameter("transporter", "netty"));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Transporter) name from url(" + url.toString() + ") use keys([server, transporter])");
+com.alibaba.dubbo.remoting.Transporter extension = (com.alibaba.dubbo.remoting.Transporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Transporter.class).getExtension(extName);
+return extension.bind(arg0, arg1);
+}
+}, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:03:23,730 method:%1%n [DUBBO] package com.alibaba.dubbo.remoting;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Dispatcher$Adpative implements com.alibaba.dubbo.remoting.Dispatcher {
+public com.alibaba.dubbo.remoting.ChannelHandler dispatch(com.alibaba.dubbo.remoting.ChannelHandler arg0, com.alibaba.dubbo.common.URL arg1) {
+if (arg1 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg1;
+String extName = url.getParameter("dispatcher", url.getParameter("dispather", url.getParameter("channel.handler", "all")));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Dispatcher) name from url(" + url.toString() + ") use keys([dispatcher, dispather, channel.handler])");
+com.alibaba.dubbo.remoting.Dispatcher extension = (com.alibaba.dubbo.remoting.Dispatcher)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Dispatcher.class).getExtension(extName);
+return extension.dispatch(arg0, arg1);
+}
+}, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:03:23,779 method:%1%n [DUBBO] package com.alibaba.dubbo.common.threadpool;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ThreadPool$Adpative implements com.alibaba.dubbo.common.threadpool.ThreadPool {
+public java.util.concurrent.Executor getExecutor(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("threadpool", "fixed");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.common.threadpool.ThreadPool) name from url(" + url.toString() + ") use keys([threadpool])");
+com.alibaba.dubbo.common.threadpool.ThreadPool extension = (com.alibaba.dubbo.common.threadpool.ThreadPool)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.common.threadpool.ThreadPool.class).getExtension(extName);
+return extension.getExecutor(arg0);
+}
+}, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[INFO ] 2017-08-07 17:03:23,889 method:%1%n [DUBBO] Successed connect to server /10.130.87.157:20882 from NettyClient 10.130.87.157 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x622eed42, /10.130.87.157:54352 => /10.130.87.157:20882]], dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[INFO ] 2017-08-07 17:03:23,890 method:%1%n [DUBBO] Start NettyClient PC-20151230QOFE/10.130.87.157 connect to the server /10.130.87.157:20882, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:03:23,945 method:%1%n [DUBBO] package com.alibaba.dubbo.validation;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Validation$Adpative implements com.alibaba.dubbo.validation.Validation {
+public com.alibaba.dubbo.validation.Validator getValidator(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("validation", "jvalidation");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.validation.Validation) name from url(" + url.toString() + ") use keys([validation])");
+com.alibaba.dubbo.validation.Validation extension = (com.alibaba.dubbo.validation.Validation)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.validation.Validation.class).getExtension(extName);
+return extension.getValidator(arg0);
+}
+}, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:03:23,961 method:%1%n [DUBBO] package com.alibaba.dubbo.monitor;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class MonitorFactory$Adpative implements com.alibaba.dubbo.monitor.MonitorFactory {
+public com.alibaba.dubbo.monitor.Monitor getMonitor(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.monitor.MonitorFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.monitor.MonitorFactory extension = (com.alibaba.dubbo.monitor.MonitorFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.monitor.MonitorFactory.class).getExtension(extName);
+return extension.getMonitor(arg0);
+}
+}, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:03:23,981 method:%1%n [DUBBO] package com.alibaba.dubbo.cache;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class CacheFactory$Adpative implements com.alibaba.dubbo.cache.CacheFactory {
+public com.alibaba.dubbo.cache.Cache getCache(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("cache", "lru");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.cache.CacheFactory) name from url(" + url.toString() + ") use keys([cache])");
+com.alibaba.dubbo.cache.CacheFactory extension = (com.alibaba.dubbo.cache.CacheFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.cache.CacheFactory.class).getExtension(extName);
+return extension.getCache(arg0);
+}
+}, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[INFO ] 2017-08-07 17:03:24,003 method:%1%n [DUBBO] Refer dubbo service cn.e3mall.search.service.SearchService from url zookeeper://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=e3-search-web&check=false&dubbo=2.5.3&interface=cn.e3mall.search.service.SearchService&methods=search&pid=7528&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096602769, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:03:24,018 method:%1%nAutowiring by type from bean name 'searchController' to bean named 'searchService'
+
+
+[DEBUG] 2017-08-07 17:03:24,019 method:%1%nFinished creating instance of bean 'searchController'
+
+
+[DEBUG] 2017-08-07 17:03:24,019 method:%1%nReturning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:24,019 method:%1%nReturning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:24,019 method:%1%nReturning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:24,020 method:%1%nReturning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:24,020 method:%1%nCreating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:24,020 method:%1%nCreating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:24,023 method:%1%nEagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:24,028 method:%1%nFinished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:24,028 method:%1%nCreating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+
+
+[DEBUG] 2017-08-07 17:03:24,028 method:%1%nCreating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+
+
+[DEBUG] 2017-08-07 17:03:24,029 method:%1%nEagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:24,033 method:%1%nFinished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+
+
+[DEBUG] 2017-08-07 17:03:24,033 method:%1%nCreating shared instance of singleton bean 'mvcResourceUrlProvider'
+
+
+[DEBUG] 2017-08-07 17:03:24,033 method:%1%nCreating instance of bean 'mvcResourceUrlProvider'
+
+
+[DEBUG] 2017-08-07 17:03:24,034 method:%1%nEagerly caching bean 'mvcResourceUrlProvider' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:24,034 method:%1%nFinished creating instance of bean 'mvcResourceUrlProvider'
+
+
+[DEBUG] 2017-08-07 17:03:24,034 method:%1%nReturning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
+
+
+[DEBUG] 2017-08-07 17:03:24,035 method:%1%nCreating shared instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,035 method:%1%nCreating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,040 method:%1%nEagerly caching bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:24,046 method:%1%nInvoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,047 method:%1%nFinished creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,047 method:%1%nCreating shared instance of singleton bean 'mvcPathMatcher'
+
+
+[DEBUG] 2017-08-07 17:03:24,047 method:%1%nCreating instance of bean 'mvcPathMatcher'
+
+
+[DEBUG] 2017-08-07 17:03:24,048 method:%1%nEagerly caching bean 'mvcPathMatcher' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:24,050 method:%1%nFinished creating instance of bean 'mvcPathMatcher'
+
+
+[DEBUG] 2017-08-07 17:03:24,051 method:%1%nCreating shared instance of singleton bean 'mvcUrlPathHelper'
+
+
+[DEBUG] 2017-08-07 17:03:24,051 method:%1%nCreating instance of bean 'mvcUrlPathHelper'
+
+
+[DEBUG] 2017-08-07 17:03:24,051 method:%1%nEagerly caching bean 'mvcUrlPathHelper' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:24,054 method:%1%nFinished creating instance of bean 'mvcUrlPathHelper'
+
+
+[DEBUG] 2017-08-07 17:03:24,054 method:%1%nCreating shared instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,055 method:%1%nCreating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,056 method:%1%nEagerly caching bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:24,062 method:%1%nReturning cached instance of singleton bean 'mvcPathMatcher'
+
+
+[DEBUG] 2017-08-07 17:03:24,062 method:%1%nReturning cached instance of singleton bean 'mvcUrlPathHelper'
+
+
+[DEBUG] 2017-08-07 17:03:24,063 method:%1%nReturning cached instance of singleton bean 'mvcCorsConfigurations'
+
+
+[DEBUG] 2017-08-07 17:03:24,064 method:%1%nReturning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,064 method:%1%nReturning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
+
+
+[DEBUG] 2017-08-07 17:03:24,065 method:%1%nReturning cached instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+
+
+[INFO ] 2017-08-07 17:03:24,065 method:%1%nMapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,065 method:%1%nFinished creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,066 method:%1%nCreating shared instance of singleton bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,066 method:%1%nCreating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,076 method:%1%nEagerly caching bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:24,088 method:%1%nFinished creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,089 method:%1%nCreating shared instance of singleton bean 'multipartResolver'
+
+
+[DEBUG] 2017-08-07 17:03:24,089 method:%1%nCreating instance of bean 'multipartResolver'
+
+
+[DEBUG] 2017-08-07 17:03:24,104 method:%1%nEagerly caching bean 'multipartResolver' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:24,114 method:%1%nFinished creating instance of bean 'multipartResolver'
+
+
+[DEBUG] 2017-08-07 17:03:24,115 method:%1%nCreating shared instance of singleton bean 'cn.e3mall.search.exception.GlobalExceptionResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,115 method:%1%nCreating instance of bean 'cn.e3mall.search.exception.GlobalExceptionResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,116 method:%1%nEagerly caching bean 'cn.e3mall.search.exception.GlobalExceptionResolver#0' to allow for resolving potential circular references
+
+
+[DEBUG] 2017-08-07 17:03:24,119 method:%1%nFinished creating instance of bean 'cn.e3mall.search.exception.GlobalExceptionResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,119 method:%1%nReturning cached instance of singleton bean 'e3-search-web'
+
+
+[DEBUG] 2017-08-07 17:03:24,120 method:%1%nReturning cached instance of singleton bean 'com.alibaba.dubbo.config.RegistryConfig'
+
+
+[DEBUG] 2017-08-07 17:03:24,120 method:%1%nReturning cached instance of singleton bean 'searchService'
+
+
+[DEBUG] 2017-08-07 17:03:24,120 method:%1%nReturning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:24,120 method:%1%nReturning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:24,121 method:%1%nReturning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+
+
+[DEBUG] 2017-08-07 17:03:24,197 method:%1%nUnable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@6d7689e8]
+
+
+[DEBUG] 2017-08-07 17:03:24,198 method:%1%nReturning cached instance of singleton bean 'lifecycleProcessor'
+
+
+[DEBUG] 2017-08-07 17:03:24,200 method:%1%nReturning cached instance of singleton bean 'mvcResourceUrlProvider'
+
+
+[DEBUG] 2017-08-07 17:03:24,203 method:%1%nReturning cached instance of singleton bean 'multipartResolver'
+
+
+[DEBUG] 2017-08-07 17:03:24,203 method:%1%nUsing MultipartResolver [org.springframework.web.multipart.commons.CommonsMultipartResolver@6125b19]
+
+
+[DEBUG] 2017-08-07 17:03:24,204 method:%1%nCreating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+
+
+[DEBUG] 2017-08-07 17:03:24,209 method:%1%nFinished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+
+
+[DEBUG] 2017-08-07 17:03:24,210 method:%1%nUnable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@1da2a2ef]
+
+
+[DEBUG] 2017-08-07 17:03:24,211 method:%1%nCreating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+
+
+[DEBUG] 2017-08-07 17:03:24,218 method:%1%nFinished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+
+
+[DEBUG] 2017-08-07 17:03:24,218 method:%1%nUnable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@3f1d425d]
+
+
+[DEBUG] 2017-08-07 17:03:24,219 method:%1%nReturning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+
+
+[DEBUG] 2017-08-07 17:03:24,219 method:%1%nReturning cached instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+
+
+[DEBUG] 2017-08-07 17:03:24,220 method:%1%nReturning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,220 method:%1%nReturning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+
+
+[DEBUG] 2017-08-07 17:03:24,221 method:%1%nReturning cached instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+
+
+[DEBUG] 2017-08-07 17:03:24,221 method:%1%nReturning cached instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+
+
+[DEBUG] 2017-08-07 17:03:24,222 method:%1%nReturning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,222 method:%1%nReturning cached instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,222 method:%1%nReturning cached instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,223 method:%1%nReturning cached instance of singleton bean 'cn.e3mall.search.exception.GlobalExceptionResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,224 method:%1%nCreating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+
+
+[DEBUG] 2017-08-07 17:03:24,231 method:%1%nFinished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+
+
+[DEBUG] 2017-08-07 17:03:24,231 method:%1%nUnable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@72d366dc]
+
+
+[DEBUG] 2017-08-07 17:03:24,231 method:%1%nReturning cached instance of singleton bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,233 method:%1%nCreating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+
+
+[DEBUG] 2017-08-07 17:03:24,241 method:%1%nFinished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+
+
+[DEBUG] 2017-08-07 17:03:24,241 method:%1%nUnable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@12ab4d80]
+
+
+[DEBUG] 2017-08-07 17:03:24,242 method:%1%nLooking for resource handler mappings
+
+
+[DEBUG] 2017-08-07 17:03:24,242 method:%1%nReturning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,242 method:%1%nFound resource handler mapping: URL pattern="/static/**", locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@2c6d1813]
+
+
+[DEBUG] 2017-08-07 17:03:24,243 method:%1%nLooking for resource handler mappings
+
+
+[DEBUG] 2017-08-07 17:03:24,243 method:%1%nReturning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+
+
+[DEBUG] 2017-08-07 17:03:24,243 method:%1%nFound resource handler mapping: URL pattern="/static/**", locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@2c6d1813]
+
+
+[DEBUG] 2017-08-07 17:03:24,245 method:%1%nSearching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
+
+
+[DEBUG] 2017-08-07 17:03:24,245 method:%1%nSearching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
+
+
+[DEBUG] 2017-08-07 17:03:24,245 method:%1%nSearching for key 'spring.liveBeansView.mbeanDomain' in [jndiProperties]
+
+
+[DEBUG] 2017-08-07 17:03:24,246 method:%1%nLooking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+
+
+[DEBUG] 2017-08-07 17:03:24,246 method:%1%nConverted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+
+
+[DEBUG] 2017-08-07 17:03:24,247 method:%1%nLooking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+
+
+[DEBUG] 2017-08-07 17:03:24,247 method:%1%nJNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+
+
+[DEBUG] 2017-08-07 17:03:24,247 method:%1%nSearching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+
+
+[DEBUG] 2017-08-07 17:03:24,247 method:%1%nSearching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+
+
+[DEBUG] 2017-08-07 17:03:24,247 method:%1%nCould not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+
+
+[DEBUG] 2017-08-07 17:03:24,250 method:%1%nPublished WebApplicationContext of servlet 'SpringMVC' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.SpringMVC]
+
+
+[INFO ] 2017-08-07 17:03:24,251 method:%1%nFrameworkServlet 'SpringMVC': initialization completed in 3676 ms
+
+
+[DEBUG] 2017-08-07 17:03:24,251 method:%1%nServlet 'SpringMVC' configured successfully
+
+
+[DEBUG] 2017-08-07 17:03:33,597 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:03:43,598 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:03:53,599 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:04:03,601 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:04:13,602 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:04:23,604 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:04:23,962 method:%1%n [DUBBO] Send heartbeat to remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:04:24,493 method:%1%n [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:04:33,607 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:04:43,608 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:04:53,609 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:05:03,610 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:05:13,612 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:05:23,613 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:05:23,964 method:%1%n [DUBBO] Send heartbeat to remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:05:23,972 method:%1%n [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:05:33,616 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:05:43,617 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:05:53,618 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:06:03,620 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:06:13,622 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:06:23,622 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:06:23,968 method:%1%n [DUBBO] Send heartbeat to remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:06:23,977 method:%1%n [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:06:32,598 method:%1%nDispatcherServlet with name 'SpringMVC' processing GET request for [/search.html]
+
+
+[DEBUG] 2017-08-07 17:06:32,600 method:%1%nLooking up handler method for path /search.html
+
+
+[DEBUG] 2017-08-07 17:06:32,604 method:%1%nReturning handler method [public java.lang.String cn.e3mall.search.controller.SearchController.search(java.lang.String,int,org.springframework.ui.Model) throws org.apache.solr.client.solrj.SolrServerException,java.io.UnsupportedEncodingException]
+
+
+[DEBUG] 2017-08-07 17:06:32,604 method:%1%nReturning cached instance of singleton bean 'searchController'
+
+
+[DEBUG] 2017-08-07 17:06:32,606 method:%1%nLast-Modified value for [/search.html] is: -1
+
+
+[DEBUG] 2017-08-07 17:06:33,623 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:06:43,624 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:06:49,763 method:%1%n [DUBBO] Decode decodeable message com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[WARN ] 2017-08-07 17:06:49,763 method:%1%n [DUBBO] The timeout response finally returned at 2017-08-07 17:06:49.763, response Response [id=3, version=null, status=20, event=false, error=null, result=RpcResult [result=cn.e3mall.common.pojo.SearchResult@4b6ad8e7, exception=null]], channel: /10.130.87.157:54352 -> /10.130.87.157:20882, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:06:50,983 method:%1%n [DUBBO] Decode decodeable message com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[WARN ] 2017-08-07 17:06:50,987 method:%1%n [DUBBO] Although retry the method search in the service cn.e3mall.search.service.SearchService was successful by the provider 10.130.87.157:20882, but there have been failed providers [10.130.87.157:20882] (1/1) from the registry 127.0.0.1:2181 on the consumer 10.130.87.157 using the dubbo version 2.5.3. Last error is: Invoke remote method timeout. method: search, provider: dubbo://10.130.87.157:20882/cn.e3mall.search.service.SearchService?anyhost=true&application=e3-search-web&check=false&dubbo=2.5.3&interface=cn.e3mall.search.service.SearchService&methods=search&pid=7528&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096602769, cause: Waiting server-side response timeout. start time: 2017-08-07 17:06:32.655, end time: 2017-08-07 17:06:42.661, client elapsed: 4 ms, server elapsed: 10002 ms, timeout: 10000 ms, request: Request [id=3, version=2.0.0, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=search, parameterTypes=[class java.lang.String, int, int], arguments=[手机, 1, 60], attachments={path=cn.e3mall.search.service.SearchService, interface=cn.e3mall.search.service.SearchService, timeout=10000, version=0.0.0}]], channel: /10.130.87.157:54352 -> /10.130.87.157:20882, dubbo version: 2.5.3, current host: 10.130.87.157
+com.alibaba.dubbo.rpc.RpcException: Invoke remote method timeout. method: search, provider: dubbo://10.130.87.157:20882/cn.e3mall.search.service.SearchService?anyhost=true&application=e3-search-web&check=false&dubbo=2.5.3&interface=cn.e3mall.search.service.SearchService&methods=search&pid=7528&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096602769, cause: Waiting server-side response timeout. start time: 2017-08-07 17:06:32.655, end time: 2017-08-07 17:06:42.661, client elapsed: 4 ms, server elapsed: 10002 ms, timeout: 10000 ms, request: Request [id=3, version=2.0.0, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=search, parameterTypes=[class java.lang.String, int, int], arguments=[手机, 1, 60], attachments={path=cn.e3mall.search.service.SearchService, interface=cn.e3mall.search.service.SearchService, timeout=10000, version=0.0.0}]], channel: /10.130.87.157:54352 -> /10.130.87.157:20882
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboInvoker.doInvoke(DubboInvoker.java:99)
+	at com.alibaba.dubbo.rpc.protocol.AbstractInvoker.invoke(AbstractInvoker.java:144)
+	at com.alibaba.dubbo.rpc.listener.ListenerInvokerWrapper.invoke(ListenerInvokerWrapper.java:74)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.FutureFilter.invoke(FutureFilter.java:53)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ConsumerContextFilter.invoke(ConsumerContextFilter.java:48)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.cluster.support.FailoverClusterInvoker.doInvoke(FailoverClusterInvoker.java:77)
+	at com.alibaba.dubbo.rpc.cluster.support.AbstractClusterInvoker.invoke(AbstractClusterInvoker.java:227)
+	at com.alibaba.dubbo.rpc.cluster.support.wrapper.MockClusterInvoker.invoke(MockClusterInvoker.java:72)
+	at com.alibaba.dubbo.rpc.proxy.InvokerInvocationHandler.invoke(InvokerInvocationHandler.java:52)
+	at com.alibaba.dubbo.common.bytecode.proxy0.search(proxy0.java)
+	at cn.e3mall.search.controller.SearchController.search(SearchController.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:222)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:814)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:737)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:969)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:860)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:845)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: com.alibaba.dubbo.remoting.TimeoutException: Waiting server-side response timeout. start time: 2017-08-07 17:06:32.655, end time: 2017-08-07 17:06:42.661, client elapsed: 4 ms, server elapsed: 10002 ms, timeout: 10000 ms, request: Request [id=3, version=2.0.0, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=search, parameterTypes=[class java.lang.String, int, int], arguments=[手机, 1, 60], attachments={path=cn.e3mall.search.service.SearchService, interface=cn.e3mall.search.service.SearchService, timeout=10000, version=0.0.0}]], channel: /10.130.87.157:54352 -> /10.130.87.157:20882
+	at com.alibaba.dubbo.remoting.exchange.support.DefaultFuture.get(DefaultFuture.java:107)
+	at com.alibaba.dubbo.remoting.exchange.support.DefaultFuture.get(DefaultFuture.java:84)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboInvoker.doInvoke(DubboInvoker.java:96)
+	... 55 more
+
+
+[DEBUG] 2017-08-07 17:06:51,023 method:%1%nInvoking afterPropertiesSet() on bean with name 'search'
+
+
+[DEBUG] 2017-08-07 17:06:51,024 method:%1%nRendering view [org.springframework.web.servlet.view.JstlView: name 'search'; URL [/WEB-INF/jsp/search.jsp]] in DispatcherServlet with name 'SpringMVC'
+
+
+[DEBUG] 2017-08-07 17:06:51,024 method:%1%nAdded model object 'query' of type [java.lang.String] to request in view with name 'search'
+
+
+[DEBUG] 2017-08-07 17:06:51,024 method:%1%nAdded model object 'totalPages' of type [java.lang.Integer] to request in view with name 'search'
+
+
+[DEBUG] 2017-08-07 17:06:51,025 method:%1%nAdded model object 'page' of type [java.lang.Integer] to request in view with name 'search'
+
+
+[DEBUG] 2017-08-07 17:06:51,025 method:%1%nAdded model object 'itemList' of type [java.util.ArrayList] to request in view with name 'search'
+
+
+[DEBUG] 2017-08-07 17:06:51,025 method:%1%nAdded model object 'recordCount' of type [java.lang.Long] to request in view with name 'search'
+
+
+[DEBUG] 2017-08-07 17:06:51,030 method:%1%nForwarding to resource [/WEB-INF/jsp/search.jsp] in InternalResourceView 'search'
+
+
+[DEBUG] 2017-08-07 17:06:53,541 method:%1%nSuccessfully completed request
+
+
+[DEBUG] 2017-08-07 17:06:53,626 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:07:03,627 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:07:13,629 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:07:23,630 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:07:33,633 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:07:43,633 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:07:53,634 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:08:03,636 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:08:05,252 method:%1%n [DUBBO] Received heartbeat from remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:08:13,638 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:08:23,639 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:08:33,638 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:08:43,640 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:08:53,642 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:09:03,642 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:09:05,343 method:%1%n [DUBBO] Received heartbeat from remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:09:13,644 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:09:23,645 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:09:33,647 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:09:43,648 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:09:53,650 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:10:03,651 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:10:05,403 method:%1%n [DUBBO] Received heartbeat from remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:10:13,653 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:10:23,655 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:10:33,656 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:10:43,658 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:10:53,659 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:11:03,661 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:11:05,439 method:%1%n [DUBBO] Received heartbeat from remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:11:13,662 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:11:23,664 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:11:33,666 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:11:43,667 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:11:53,670 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:12:03,670 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:12:05,527 method:%1%n [DUBBO] Received heartbeat from remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:12:13,672 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:12:23,673 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:12:33,675 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:12:43,677 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:12:53,678 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:13:03,681 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:13:05,837 method:%1%n [DUBBO] Received heartbeat from remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:13:13,682 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:13:23,682 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:13:33,683 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:13:43,685 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:13:53,687 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:14:03,689 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:14:05,869 method:%1%n [DUBBO] Received heartbeat from remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:14:13,690 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:14:23,691 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:14:33,693 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:14:43,694 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:14:53,694 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:15:03,696 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:15:05,902 method:%1%n [DUBBO] Received heartbeat from remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:15:13,696 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:15:23,698 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:15:33,699 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:15:43,700 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[INFO ] 2017-08-07 17:15:47,157 method:%1%n [DUBBO] disconected from /10.130.87.157:20882,url:dubbo://10.130.87.157:20882/cn.e3mall.search.service.SearchService?anyhost=true&application=e3-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=cn.e3mall.search.service.SearchService&methods=search&pid=7528&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096602769, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[WARN ] 2017-08-07 17:15:49,159 method:%1%n [DUBBO] client reconnect to 10.130.87.157:20882 find error . url: dubbo://10.130.87.157:20882/cn.e3mall.search.service.SearchService?anyhost=true&application=e3-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=cn.e3mall.search.service.SearchService&methods=search&pid=7528&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096602769, dubbo version: 2.5.3, current host: 10.130.87.157
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://10.130.87.157:20882/cn.e3mall.search.service.SearchService?anyhost=true&application=e3-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=cn.e3mall.search.service.SearchService&methods=search&pid=7528&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096602769) failed to connect to server /10.130.87.157:20882, error message is:Connection refused: no further information: /10.130.87.157:20882
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:351)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.net.ConnectException: Connection refused: no further information: /10.130.87.157:20882
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:692)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+
+
+[DEBUG] 2017-08-07 17:15:53,701 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:16:03,703 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:16:13,705 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:16:18,171 method:%1%nGot notification sessionid:0x15dbb44013f0005
+
+
+[DEBUG] 2017-08-07 17:16:18,172 method:%1%nGot WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/dubbo/cn.e3mall.search.service.SearchService/providers for sessionid 0x15dbb44013f0005
+
+
+[DEBUG] 2017-08-07 17:16:18,173 method:%1%nReceived event: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/dubbo/cn.e3mall.search.service.SearchService/providers
+
+
+[DEBUG] 2017-08-07 17:16:18,176 method:%1%nNew event: ZkEvent[Children of /dubbo/cn.e3mall.search.service.SearchService/providers changed sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2@6da4828e]
+
+
+[DEBUG] 2017-08-07 17:16:18,177 method:%1%nLeaving process event
+
+
+[DEBUG] 2017-08-07 17:16:18,179 method:%1%nDelivering event #1 ZkEvent[Children of /dubbo/cn.e3mall.search.service.SearchService/providers changed sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2@6da4828e]
+
+
+[DEBUG] 2017-08-07 17:16:18,182 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 20,3  replyHeader:: 20,2687,0  request:: '/dubbo/cn.e3mall.search.service.SearchService/providers,T  response:: s{2448,2448,1501645057530,1501645057530,0,6,0,0,0,0,2687} 
+
+
+[DEBUG] 2017-08-07 17:16:18,184 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 21,8  replyHeader:: 21,2687,0  request:: '/dubbo/cn.e3mall.search.service.SearchService/providers,T  response:: v{} 
+
+
+[INFO ] 2017-08-07 17:16:18,185 method:%1%n [DUBBO] Notify urls for subscribe url consumer://10.130.87.157/cn.e3mall.search.service.SearchService?application=e3-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=cn.e3mall.search.service.SearchService&methods=search&pid=7528&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096602769, urls: [empty://10.130.87.157/cn.e3mall.search.service.SearchService?application=e3-search-web&category=providers&dubbo=2.5.3&interface=cn.e3mall.search.service.SearchService&methods=search&pid=7528&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096602769], dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:16:18,189 method:%1%nDelivering event #1 done
+
+
+[DEBUG] 2017-08-07 17:16:28,185 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:16:38,187 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:16:48,187 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:16:58,188 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:17:08,193 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:17:18,200 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 3ms
+
+
+[DEBUG] 2017-08-07 17:17:28,211 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 2ms
+
+
+[DEBUG] 2017-08-07 17:17:38,213 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 2ms
+
+
+[DEBUG] 2017-08-07 17:17:48,225 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:17:58,232 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 3ms
+
+
+[DEBUG] 2017-08-07 17:18:08,235 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 2ms
+
+
+[DEBUG] 2017-08-07 17:18:18,243 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:18:28,243 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:18:38,245 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:18:48,246 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:18:58,261 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:19:08,261 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:19:18,270 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:19:28,274 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 2ms
+
+
+[DEBUG] 2017-08-07 17:19:38,277 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:19:48,279 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:19:58,281 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 2ms
+
+
+[DEBUG] 2017-08-07 17:20:08,286 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:20:18,291 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 4ms
+
+
+[DEBUG] 2017-08-07 17:20:28,291 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:20:38,293 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:20:48,295 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:20:58,295 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:21:08,297 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:21:14,237 method:%1%nGot notification sessionid:0x15dbb44013f0005
+
+
+[DEBUG] 2017-08-07 17:21:14,238 method:%1%nGot WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/dubbo/cn.e3mall.search.service.SearchService/providers for sessionid 0x15dbb44013f0005
+
+
+[DEBUG] 2017-08-07 17:21:14,238 method:%1%nReceived event: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/dubbo/cn.e3mall.search.service.SearchService/providers
+
+
+[DEBUG] 2017-08-07 17:21:14,238 method:%1%nNew event: ZkEvent[Children of /dubbo/cn.e3mall.search.service.SearchService/providers changed sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2@6da4828e]
+
+
+[DEBUG] 2017-08-07 17:21:14,239 method:%1%nLeaving process event
+
+
+[DEBUG] 2017-08-07 17:21:14,239 method:%1%nDelivering event #2 ZkEvent[Children of /dubbo/cn.e3mall.search.service.SearchService/providers changed sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2@6da4828e]
+
+
+[DEBUG] 2017-08-07 17:21:14,241 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 22,3  replyHeader:: 22,2699,0  request:: '/dubbo/cn.e3mall.search.service.SearchService/providers,T  response:: s{2448,2448,1501645057530,1501645057530,0,7,0,0,0,1,2699} 
+
+
+[DEBUG] 2017-08-07 17:21:14,243 method:%1%nReading reply sessionid:0x15dbb44013f0005, packet:: clientPath:null serverPath:null finished:false header:: 23,8  replyHeader:: 23,2699,0  request:: '/dubbo/cn.e3mall.search.service.SearchService/providers,T  response:: v{'dubbo%253A%252F%252F10.130.87.157%253A20882%252Fcn.e3mall.search.service.SearchService%253Fanyhost%253Dtrue%2526application%253De3-search%2526dubbo%253D2.5.3%2526interface%253Dcn.e3mall.search.service.SearchService%2526methods%253Dsearch%2526pid%253D7640%2526revision%253D1.0-SNAPSHOT%2526side%253Dprovider%2526timeout%253D10000%2526timestamp%253D1502097671480} 
+
+
+[INFO ] 2017-08-07 17:21:14,245 method:%1%n [DUBBO] Notify urls for subscribe url consumer://10.130.87.157/cn.e3mall.search.service.SearchService?application=e3-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=cn.e3mall.search.service.SearchService&methods=search&pid=7528&revision=1.0-SNAPSHOT&side=consumer&timeout=10000&timestamp=1502096602769, urls: [dubbo://10.130.87.157:20882/cn.e3mall.search.service.SearchService?anyhost=true&application=e3-search&dubbo=2.5.3&interface=cn.e3mall.search.service.SearchService&methods=search&pid=7640&revision=1.0-SNAPSHOT&side=provider&timeout=10000&timestamp=1502097671480], dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[INFO ] 2017-08-07 17:21:14,250 method:%1%n [DUBBO] Successed connect to server /10.130.87.157:20882 from NettyClient 10.130.87.157 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x67088d49, /10.130.87.157:54571 => /10.130.87.157:20882]], dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[INFO ] 2017-08-07 17:21:14,250 method:%1%n [DUBBO] Start NettyClient PC-20151230QOFE/10.130.87.157 connect to the server /10.130.87.157:20882, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:21:14,251 method:%1%nDelivering event #2 done
+
+
+[DEBUG] 2017-08-07 17:21:24,244 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:21:34,245 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:21:44,249 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 2ms
+
+
+[DEBUG] 2017-08-07 17:21:50,971 method:%1%nDispatcherServlet with name 'SpringMVC' processing GET request for [/search.html]
+
+
+[DEBUG] 2017-08-07 17:21:50,972 method:%1%nLooking up handler method for path /search.html
+
+
+[DEBUG] 2017-08-07 17:21:50,972 method:%1%nReturning handler method [public java.lang.String cn.e3mall.search.controller.SearchController.search(java.lang.String,int,org.springframework.ui.Model) throws org.apache.solr.client.solrj.SolrServerException,java.io.UnsupportedEncodingException]
+
+
+[DEBUG] 2017-08-07 17:21:50,973 method:%1%nReturning cached instance of singleton bean 'searchController'
+
+
+[DEBUG] 2017-08-07 17:21:50,973 method:%1%nLast-Modified value for [/search.html] is: -1
+
+
+[DEBUG] 2017-08-07 17:21:54,247 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:21:59,310 method:%1%n [DUBBO] Decode decodeable message com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:21:59,311 method:%1%nRendering view [org.springframework.web.servlet.view.JstlView: name 'search'; URL [/WEB-INF/jsp/search.jsp]] in DispatcherServlet with name 'SpringMVC'
+
+
+[DEBUG] 2017-08-07 17:21:59,311 method:%1%nAdded model object 'query' of type [java.lang.String] to request in view with name 'search'
+
+
+[DEBUG] 2017-08-07 17:21:59,311 method:%1%nAdded model object 'totalPages' of type [java.lang.Integer] to request in view with name 'search'
+
+
+[DEBUG] 2017-08-07 17:21:59,312 method:%1%nAdded model object 'page' of type [java.lang.Integer] to request in view with name 'search'
+
+
+[DEBUG] 2017-08-07 17:21:59,312 method:%1%nAdded model object 'itemList' of type [java.util.ArrayList] to request in view with name 'search'
+
+
+[DEBUG] 2017-08-07 17:21:59,312 method:%1%nAdded model object 'recordCount' of type [java.lang.Long] to request in view with name 'search'
+
+
+[DEBUG] 2017-08-07 17:21:59,312 method:%1%nForwarding to resource [/WEB-INF/jsp/search.jsp] in InternalResourceView 'search'
+
+
+[DEBUG] 2017-08-07 17:21:59,354 method:%1%nSuccessfully completed request
+
+
+[DEBUG] 2017-08-07 17:22:04,249 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:22:14,251 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:22:15,984 method:%1%nDispatcherServlet with name 'SpringMVC' processing GET request for [/item/150112305723847.html]
+
+
+[DEBUG] 2017-08-07 17:22:15,985 method:%1%nLooking up handler method for path /item/150112305723847.html
+
+
+[DEBUG] 2017-08-07 17:22:15,986 method:%1%nDid not find handler method for [/item/150112305723847.html]
+
+
+[WARN ] 2017-08-07 17:22:15,987 method:%1%nNo mapping found for HTTP request with URI [/item/150112305723847.html] in DispatcherServlet with name 'SpringMVC'
+
+
+[DEBUG] 2017-08-07 17:22:15,987 method:%1%nSuccessfully completed request
+
+
+[DEBUG] 2017-08-07 17:22:24,251 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:22:34,253 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:22:44,255 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:22:54,255 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:22:59,225 method:%1%n [DUBBO] Received heartbeat from remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:23:04,257 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:23:14,258 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:23:24,259 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:23:34,261 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:23:44,264 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:23:54,265 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 2ms
+
+
+[DEBUG] 2017-08-07 17:23:59,280 method:%1%n [DUBBO] Received heartbeat from remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:24:04,265 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:24:14,264 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:24:24,266 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:24:34,266 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:24:44,269 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:24:54,269 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:24:59,292 method:%1%n [DUBBO] Received heartbeat from remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:25:04,270 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:25:14,272 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:25:24,273 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:25:34,275 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:25:44,276 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:25:54,278 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:25:59,303 method:%1%n [DUBBO] Received heartbeat from remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:26:04,280 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:26:14,282 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 2ms
+
+
+[DEBUG] 2017-08-07 17:26:24,282 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:26:34,283 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:26:44,283 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:26:54,284 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:26:59,314 method:%1%n [DUBBO] Received heartbeat from remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:27:04,287 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:27:14,287 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:27:24,288 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:27:34,290 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:27:44,291 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:27:54,294 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:27:59,330 method:%1%n [DUBBO] Received heartbeat from remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:28:04,294 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:28:14,294 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:28:24,296 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:28:34,300 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 3ms
+
+
+[DEBUG] 2017-08-07 17:28:44,299 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:28:45,927 method:%1%nDispatcherServlet with name 'SpringMVC' processing GET request for [/search.html]
+
+
+[DEBUG] 2017-08-07 17:28:45,927 method:%1%nLooking up handler method for path /search.html
+
+
+[DEBUG] 2017-08-07 17:28:45,928 method:%1%nReturning handler method [public java.lang.String cn.e3mall.search.controller.SearchController.search(java.lang.String,int,org.springframework.ui.Model) throws org.apache.solr.client.solrj.SolrServerException,java.io.UnsupportedEncodingException]
+
+
+[DEBUG] 2017-08-07 17:28:45,928 method:%1%nReturning cached instance of singleton bean 'searchController'
+
+
+[DEBUG] 2017-08-07 17:28:45,928 method:%1%nLast-Modified value for [/search.html] is: -1
+
+
+[DEBUG] 2017-08-07 17:28:48,281 method:%1%n [DUBBO] Decode decodeable message com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:28:48,281 method:%1%nRendering view [org.springframework.web.servlet.view.JstlView: name 'search'; URL [/WEB-INF/jsp/search.jsp]] in DispatcherServlet with name 'SpringMVC'
+
+
+[DEBUG] 2017-08-07 17:28:48,282 method:%1%nAdded model object 'query' of type [java.lang.String] to request in view with name 'search'
+
+
+[DEBUG] 2017-08-07 17:28:48,282 method:%1%nAdded model object 'totalPages' of type [java.lang.Integer] to request in view with name 'search'
+
+
+[DEBUG] 2017-08-07 17:28:48,283 method:%1%nAdded model object 'page' of type [java.lang.Integer] to request in view with name 'search'
+
+
+[DEBUG] 2017-08-07 17:28:48,283 method:%1%nAdded model object 'itemList' of type [java.util.ArrayList] to request in view with name 'search'
+
+
+[DEBUG] 2017-08-07 17:28:48,283 method:%1%nAdded model object 'recordCount' of type [java.lang.Long] to request in view with name 'search'
+
+
+[DEBUG] 2017-08-07 17:28:48,284 method:%1%nForwarding to resource [/WEB-INF/jsp/search.jsp] in InternalResourceView 'search'
+
+
+[DEBUG] 2017-08-07 17:28:48,336 method:%1%nSuccessfully completed request
+
+
+[DEBUG] 2017-08-07 17:28:54,300 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:28:55,231 method:%1%nDispatcherServlet with name 'SpringMVC' processing GET request for [/search.html]
+
+
+[DEBUG] 2017-08-07 17:28:55,231 method:%1%nLooking up handler method for path /search.html
+
+
+[DEBUG] 2017-08-07 17:28:55,232 method:%1%nReturning handler method [public java.lang.String cn.e3mall.search.controller.SearchController.search(java.lang.String,int,org.springframework.ui.Model) throws org.apache.solr.client.solrj.SolrServerException,java.io.UnsupportedEncodingException]
+
+
+[DEBUG] 2017-08-07 17:28:55,232 method:%1%nReturning cached instance of singleton bean 'searchController'
+
+
+[DEBUG] 2017-08-07 17:28:55,233 method:%1%nLast-Modified value for [/search.html] is: -1
+
+
+[DEBUG] 2017-08-07 17:28:55,535 method:%1%n [DUBBO] Decode decodeable message com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:28:55,536 method:%1%nRendering view [org.springframework.web.servlet.view.JstlView: name 'search'; URL [/WEB-INF/jsp/search.jsp]] in DispatcherServlet with name 'SpringMVC'
+
+
+[DEBUG] 2017-08-07 17:28:55,536 method:%1%nAdded model object 'query' of type [java.lang.String] to request in view with name 'search'
+
+
+[DEBUG] 2017-08-07 17:28:55,537 method:%1%nAdded model object 'totalPages' of type [java.lang.Integer] to request in view with name 'search'
+
+
+[DEBUG] 2017-08-07 17:28:55,537 method:%1%nAdded model object 'page' of type [java.lang.Integer] to request in view with name 'search'
+
+
+[DEBUG] 2017-08-07 17:28:55,537 method:%1%nAdded model object 'itemList' of type [java.util.ArrayList] to request in view with name 'search'
+
+
+[DEBUG] 2017-08-07 17:28:55,537 method:%1%nAdded model object 'recordCount' of type [java.lang.Long] to request in view with name 'search'
+
+
+[DEBUG] 2017-08-07 17:28:55,538 method:%1%nForwarding to resource [/WEB-INF/jsp/search.jsp] in InternalResourceView 'search'
+
+
+[DEBUG] 2017-08-07 17:28:55,542 method:%1%nSuccessfully completed request
+
+
+[DEBUG] 2017-08-07 17:29:04,302 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:29:14,304 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:29:24,304 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:29:34,306 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:29:44,307 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:29:54,309 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:29:59,348 method:%1%n [DUBBO] Received heartbeat from remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:30:04,310 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:30:14,312 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:30:24,313 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:30:34,315 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:30:44,317 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:30:54,318 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:30:59,366 method:%1%n [DUBBO] Received heartbeat from remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:31:04,320 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:31:14,321 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:31:24,323 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:31:34,324 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:31:44,326 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:31:54,328 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:31:59,383 method:%1%n [DUBBO] Received heartbeat from remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:32:04,330 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:32:14,346 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 16ms
+
+
+[DEBUG] 2017-08-07 17:32:24,331 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:32:34,332 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:32:44,333 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
+
+
+[DEBUG] 2017-08-07 17:32:54,337 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:32:59,395 method:%1%n [DUBBO] Received heartbeat from remote channel /10.130.87.157:20882, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 10.130.87.157
+
+
+[DEBUG] 2017-08-07 17:33:04,340 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 2ms
+
+
+[DEBUG] 2017-08-07 17:33:14,341 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 1ms
+
+
+[DEBUG] 2017-08-07 17:33:24,343 method:%1%nGot ping response for sessionid: 0x15dbb44013f0005 after 0ms
